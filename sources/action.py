@@ -57,6 +57,10 @@ class ElementActions:
                     print(e)
                     L.e("页面中未能找到 %s 元素" % name)
                     raise Exception("页面中未能找到 [%s]" % name)
+
+
+    def check_switch_status(self,element):
+
     def reset(self, driver: webdriver.Remote):
         """单例模式下,当driver变动的时候,需要重置一下driver
         单例模式开启装饰器singleton
@@ -113,13 +117,14 @@ class ElementActions:
     def clear(self):
         self.driver.quit()
 
-    # def launchApp(self):
-    #     """ 重启应用程序
-    #     """
-    #     with allure.step("重启应用程序"):
-    #         self.driver.launch_app()
-    #         self.apppid = self.get_app_pid()
-    #
+    def launchApp(self,app):
+        """
+        直接启动应用
+        """
+        with allure.step("启动应用程序%s"%app):
+            app_info = app.split('/')
+            self.driver.start_activity(app_package=app_info[0],app_activity=app_info[1])
+
     # def open_url(self, locator):
     #     self.driver.get(locator.get('text'))
 

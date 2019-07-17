@@ -2,33 +2,36 @@
 
 from appium import webdriver
 import time
-# from util.write_user_command import WriteUserCommand
+from sources.about_server.write_user_command import WriteUserCommand
 from sources.action import ElementActions
-# class DriverClient():
-# #
-# #     def init_driver(self):
-# #         udid = 'RJCDU17529000254'
-# #         desired_caps = {
-# #             # udid adb devices
-# #             "platformName": "Android",
-# #             "platformVersion": "8.1.0",
-# #             "deviceName": "android",
-# #             "udid": udid,
-# #             "noReset": 'true',  # 不重复安装APP
-# #             "appActivity": ".HWSettings",
-# #             "appPackage": "com.android.settings",
-# #             'newCommandTimeout': '300',
-# #         }
-# #         host = "http://localhost:4723/wd/hub"
-# #         driver = webdriver.Remote(host, desired_caps)
-# #         Action = ElementActions(driver, desired_caps)
-# #         return Action
-# #
-# # if __name__ == '__main__':
-# #     driver = DriverClient()
-# #     action = driver.init_driver()
-# #     action.click("//android.widget.TextView[@text='设备连接']",'蓝牙')
-
+#
+#
+# class BaseDriver:
+#     def desired_setting(self, i):
+#         self.WF = WriteUserCommand()
+#         udid = self.WF.get_value('user_info_' + str(i), 'deviceName')
+#         port = self.WF.get_value('user_info_' + str(i), 'port')
+#         desired_caps = {
+#             "platformName": "Android",
+#             "platformVersion": "8.1.0",
+#             "deviceName": "android",
+#             "udid": udid,
+#             "noReset": 'true',  # 不重复安装APP
+#             "appActivity": ".HWSettings",
+#             "appPackage": "com.android.settings",
+#             'newCommandTimeout': '300',
+#             #       "automationName":"UIAutomator2"
+#         }
+#         driver = webdriver.Remote("http://127.0.0.1:" + port + "/wd/hub", desired_caps)
+#         Action = ElementActions(driver, desired_caps)
+#         return Action
+#
+# if __name__ == '__main__':
+#     Action = BaseDriver().desired_setting(0)
+#     setting = "//android.widget.TextView[@text='设置']"
+#     BT_home = "//*[@text='蓝牙、打印']"
+#     Action.click(setting, '设置')
+#     Action.click(BT_home, 'bt')
 class Singleton(object):
     """单例
     ElementActions 为自己封装操作类"""
@@ -36,7 +39,9 @@ class Singleton(object):
 
     def __new__(cls, *args, **kw):
         if not hasattr(cls, '_instance'):
-            udid = 'RJCDU17529000254'
+            cls.WF = WriteUserCommand()
+            udid = cls.WF.get_value('user_info_0','deviceName')
+            port = cls.WF.get_value('user_info_0','port')
             desired_caps = {
                 # udid adb devices
                 "platformName": "Android",
@@ -48,7 +53,7 @@ class Singleton(object):
                 "appPackage": "com.android.settings",
                 'newCommandTimeout': '300',
             }
-            host = "http://localhost:4723/wd/hub"
+            host = "http://127.0.0.1:"+port+"/wd/hub"
             driver = webdriver.Remote(host, desired_caps)
             Action = ElementActions(driver, desired_caps)
             orig = super(Singleton, cls)

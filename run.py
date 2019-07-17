@@ -2,6 +2,7 @@
 @ Description：
 """
 import pytest,os,subprocess,time
+from sources.about_server.server import Server
 
 
 def init_env():
@@ -12,13 +13,17 @@ def init_env():
 
     time.sleep(2)
     subprocess.call(cmd2, shell=True)
+    server = Server()
+    server.main()
+
+
 #     cmd = "python -m uiautomator2 init"
 #     subprocess.call(cmd, shell=True)
 #     logger.info("初始化运行环境!")
 
 def init_report():
     cmd1 = "allure generate data -o reports --clean"
-    cmd2 = "allure open -h 127.0.0.1 -p 8083 reports"
+    cmd2 = "allure open -h 192.168.2.102 -p 8083 reports"
 
     subprocess.call(cmd1, shell=True)
     project_path = os.path.abspath(os.path.dirname(__file__))

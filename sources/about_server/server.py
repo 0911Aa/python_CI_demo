@@ -13,8 +13,8 @@ import time
 class Server:
     def __init__(self):
         self.dos = DosCmd()
-        # self.device_list = self.get_device()
-        self.device_list = ['1234567','12345']
+        self.device_list = self.get_device()
+        # self.device_list = ['1234567','12345']
         self.wf = WriteUserCommand()
         
     def get_device(self):
@@ -72,7 +72,6 @@ class Server:
         self.start_list = self.create_command_list(i)
         print (self.start_list)
         self.dos.excute_cmd(self.start_list[0])
-        
     def kill_server(self):
         """
         关闭appium服务

@@ -3,7 +3,9 @@
 @author: uidq1501
 '''
 import configparser
-configpath = r'..\settings\config.ini'
+import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+configpath = BASE_DIR+'\settings\config.ini'
 
 class ReadIni:
     def __init__(self,file_path=None):

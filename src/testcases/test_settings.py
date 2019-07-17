@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
-import pytest,time,allure,sys
+import pytest,time,allure
 from sources.get_driver import DriverClient
 from sources.read_config import ReadIni
 
 read_ini = ReadIni()
 
-
+@pytest.mark.run(order=1)
 class TestSetting:
     def setup_class(cls):
         print('初始化')
@@ -20,6 +20,7 @@ class TestSetting:
     @allure.feature('BT_test')
     def test_BT(self):
         self.Action.home()
+        print(read_ini.get_value("setting"))
         self.Action.click(read_ini.get_value("setting"),'设置')
         self.Action.sleep(2)
         self.Action.click(read_ini.get_value("BT_home"),'蓝牙主界面')
@@ -30,7 +31,7 @@ class TestSetting:
     @allure.feature('BT_test')
     @allure.story('蓝牙开关测试')
     def test_BT_switch(self):
-        for i in range(10):
+        for i in range(5):
             self.Action.click(read_ini.get_value("BT_switch"),'蓝牙开关')
             self.Action.sleep(10)
             self.Action.click(read_ini.get_value("BT_switch"), '蓝牙开关')

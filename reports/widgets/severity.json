@@ -1,1 +1,51 @@
-[ ]
+[ {
+  "uid" : "666a697291a584c4",
+  "name" : "test_play_music",
+  "time" : {
+    "start" : 1563351855357,
+    "stop" : 1563351877919,
+    "duration" : 22562
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db4ab82226c1f18d",
+  "name" : "test_BT",
+  "time" : {
+    "start" : 1563351773483,
+    "stop" : 1563351784485,
+    "duration" : 11002
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0a4da2bb0af07ab",
+  "name" : "test_BT_switch",
+  "time" : {
+    "start" : 1563351784488,
+    "stop" : 1563351842846,
+    "duration" : 58358
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8478247d6c4d0d00",
+  "name" : "test_power",
+  "time" : {
+    "start" : 1563351849213,
+    "stop" : 1563351850397,
+    "duration" : 1184
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4f048769884dac30",
+  "name" : "test_wifi",
+  "time" : {
+    "start" : 1563351851606,
+    "stop" : 1563351853660,
+    "duration" : 2054
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

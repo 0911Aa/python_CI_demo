@@ -1,27 +1,15 @@
 [ {
+  "data" : {
+    "duration" : 104436
+  }
+}, {
+  "data" : {
+    "duration" : 101951
+  }
+}, {
+  "data" : {
+    "duration" : 139677
+  }
+}, {
   "data" : { }
-}, {
-  "data" : {
-    "duration" : 145822
-  }
-}, {
-  "data" : {
-    "duration" : 24906
-  }
-}, {
-  "data" : {
-    "duration" : 29272
-  }
-}, {
-  "data" : {
-    "duration" : 30510
-  }
-}, {
-  "data" : {
-    "duration" : 29419
-  }
-}, {
-  "data" : {
-    "duration" : 29394
-  }
 } ]
