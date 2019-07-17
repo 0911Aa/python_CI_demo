@@ -1,0 +1,215 @@
+{
+  "7bf43c89b29fd7a918188face7ab439e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "3e030e54449b1650",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563184135109,
+        "stop" : 1563184255656,
+        "duration" : 120547
+      }
+    }, {
+      "uid" : "14920becf78f62aa",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1563181664802,
+        "stop" : 1563181665008,
+        "duration" : 206
+      }
+    }, {
+      "uid" : "414838d1a36e19ba",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1563181524757,
+        "stop" : 1563181524930,
+        "duration" : 173
+      }
+    }, {
+      "uid" : "8f1e5e0320f37a9a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1563181466736,
+        "stop" : 1563181467202,
+        "duration" : 466
+      }
+    }, {
+      "uid" : "7e4bf8fbf58e4048",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1563181144741,
+        "stop" : 1563181145001,
+        "duration" : 260
+      }
+    } ]
+  },
+  "0ba9a58ad493a762466293d5955a20e6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "d616495c46ec1803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563184265085,
+        "stop" : 1563184266985,
+        "duration" : 1900
+      }
+    }, {
+      "uid" : "bde240ccb8c71998",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563181739921,
+        "stop" : 1563181742046,
+        "duration" : 2125
+      }
+    }, {
+      "uid" : "57e4b5dbf897ea8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563181674235,
+        "stop" : 1563181676093,
+        "duration" : 1858
+      }
+    }, {
+      "uid" : "c58836eb081cec55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563181534669,
+        "stop" : 1563181536528,
+        "duration" : 1859
+      }
+    }, {
+      "uid" : "2209c95f7a2c9485",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563181476307,
+        "stop" : 1563181478179,
+        "duration" : 1872
+      }
+    } ]
+  },
+  "933d14e238d2dde3aed1879d1f59f852" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "dd44d3999667e3fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563184121163,
+        "stop" : 1563184135105,
+        "duration" : 13942
+      }
+    }, {
+      "uid" : "837153264d69d8f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563181717140,
+        "stop" : 1563181731265,
+        "duration" : 14125
+      }
+    }, {
+      "uid" : "63f3b28b83f01212",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563181646821,
+        "stop" : 1563181661125,
+        "duration" : 14304
+      }
+    }, {
+      "uid" : "6c4ed1fc22683b5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563181506018,
+        "stop" : 1563181520248,
+        "duration" : 14230
+      }
+    }, {
+      "uid" : "2fb2e88c68dc9021",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563181448760,
+        "stop" : 1563181463298,
+        "duration" : 14538
+      }
+    } ]
+  },
+  "c75343d43cf52973179c1e62a0e20bc7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "ae5ce060fc256306",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1563184262628,
+        "stop" : 1563184263729,
+        "duration" : 1101
+      }
+    }, {
+      "uid" : "9da3bd8bc898d300",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1563181737417,
+        "stop" : 1563181738522,
+        "duration" : 1105
+      }
+    }, {
+      "uid" : "763300c3c6dab6a8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1563181671710,
+        "stop" : 1563181672787,
+        "duration" : 1077
+      }
+    }, {
+      "uid" : "93294bc7278338c3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1563181532004,
+        "stop" : 1563181533227,
+        "duration" : 1223
+      }
+    }, {
+      "uid" : "e3e37dcf486bf463",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1563181473760,
+        "stop" : 1563181474891,
+        "duration" : 1131
+      }
+    } ]
+  }
+}

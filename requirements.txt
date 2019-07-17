@@ -1,0 +1,7 @@
+pytest==4.4.0
+allure-pytest
+Appium-Python-Client
+ConfigParser
+pytest-sugar   #打印进度
+pytest-rerunfailures  #失败重试
+pytest-ordering   #执行顺序
