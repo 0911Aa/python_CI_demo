@@ -38,7 +38,9 @@ class Run:
         project_path = os.path.abspath(os.path.dirname(__file__))
         report_path = project_path + "/reports/" + "index.html"
         print("报告地址:{}".format(report_path))
-        subprocess.call(cmd2,shell=True)
+        server = Server()
+        server.kill_server()
+        # subprocess.call(cmd2,shell=True)
 
 
 if __name__ == "__main__":

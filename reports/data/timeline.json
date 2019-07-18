@@ -4,69 +4,69 @@
   "children" : [ {
     "name" : "WINDOWS-POQJ4DC",
     "children" : [ {
-      "name" : "4176-MainThread",
+      "name" : "13000-MainThread",
       "children" : [ {
         "name" : "test_BT",
-        "uid" : "f06f427ca1fcccff",
-        "parentUid" : "6f5d3e3f40407aeb1a6d605ba9a4a357",
+        "uid" : "a5b9fb08c3698fab",
+        "parentUid" : "89e7047baab6f9102f4d5dda07aee7ca",
         "status" : "passed",
         "time" : {
-          "start" : 1563418859409,
-          "stop" : 1563418870739,
-          "duration" : 11330
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_power",
-        "uid" : "f087a52cb2dbb4f0",
-        "parentUid" : "6f5d3e3f40407aeb1a6d605ba9a4a357",
-        "status" : "broken",
-        "time" : {
-          "start" : 1563418938185,
-          "stop" : 1563418939384,
-          "duration" : 1199
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_wifi",
-        "uid" : "411cd12afad0c61f",
-        "parentUid" : "6f5d3e3f40407aeb1a6d605ba9a4a357",
-        "status" : "passed",
-        "time" : {
-          "start" : 1563418940925,
-          "stop" : 1563418942827,
-          "duration" : 1902
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_play_music",
-        "uid" : "d21152626499a436",
-        "parentUid" : "6f5d3e3f40407aeb1a6d605ba9a4a357",
-        "status" : "passed",
-        "time" : {
-          "start" : 1563418944180,
-          "stop" : 1563418966330,
-          "duration" : 22150
+          "start" : 1563433402509,
+          "stop" : 1563433413378,
+          "duration" : 10869
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_BT_switch",
-        "uid" : "97338d351653319f",
-        "parentUid" : "6f5d3e3f40407aeb1a6d605ba9a4a357",
+        "uid" : "e3bfc14f2854a451",
+        "parentUid" : "89e7047baab6f9102f4d5dda07aee7ca",
         "status" : "passed",
         "time" : {
-          "start" : 1563418870748,
-          "stop" : 1563418931707,
-          "duration" : 60959
+          "start" : 1563433413381,
+          "stop" : 1563433474382,
+          "duration" : 61001
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_wifi",
+        "uid" : "78bcccd9e310a6f8",
+        "parentUid" : "89e7047baab6f9102f4d5dda07aee7ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563433482602,
+          "stop" : 1563433484502,
+          "duration" : 1900
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_power",
+        "uid" : "b0aee6038e5a7ed4",
+        "parentUid" : "89e7047baab6f9102f4d5dda07aee7ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1563433480391,
+          "stop" : 1563433481472,
+          "duration" : 1081
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_play_music",
+        "uid" : "1a8ad9418677f8b2",
+        "parentUid" : "89e7047baab6f9102f4d5dda07aee7ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563433485836,
+          "stop" : 1563433504360,
+          "duration" : 18524
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6f5d3e3f40407aeb1a6d605ba9a4a357"
+      "uid" : "89e7047baab6f9102f4d5dda07aee7ca"
     } ],
     "uid" : "a1296cfe60b316b6865b40f099cc0134"
   } ]

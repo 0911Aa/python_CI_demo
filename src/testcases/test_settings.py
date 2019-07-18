@@ -6,10 +6,17 @@ from sources.read_config import ReadIni
 
 read_ini = ReadIni()
 
+def setup_module(module):
+    print("开始测试")
+
+def teardown_module(module):
+    print("测试结束")
+
 @pytest.mark.run(order=1)
 class TestSetting:
+
     def setup_class(cls):
-        print('初始化')
+        print('设置初始化')
         cls.Action = DriverClient().Action
 
     # def teardown_class(cls):

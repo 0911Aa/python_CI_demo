@@ -43,6 +43,8 @@ if __name__ == "__main__":
     run = Run()
     run.init_env()
     pytest.main(["-s","--reruns=2", project_path+"/src/testcases","--alluredir="+project_path+"/data"])
+    server = Server()
+    server.kill_server()
     # run.init_report()
 
 #pytest -v 说明：可以输出用例更加详细的执行信息，比如用例所在的文件及用例名称等
