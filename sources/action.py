@@ -59,20 +59,20 @@ class ElementActions:
                     raise Exception("页面中未能找到 [%s]" % name)
 
 
-    def check_switch_status(self,element):
+    # def check_switch_status(self,element):
 
-    def reset(self, driver: webdriver.Remote):
-        """单例模式下,当driver变动的时候,需要重置一下driver
-        单例模式开启装饰器singleton
-
-        Args:
-            driver: driver
-
-        """
-        self.driver = driver
-        self.width = self.driver.get_window_size()['width']
-        self.height = self.driver.get_window_size()['height']
-        return self
+    # def reset(self, driver: webdriver.Remote):
+    #     """单例模式下,当driver变动的时候,需要重置一下driver
+    #     单例模式开启装饰器singleton
+    #
+    #     Args:
+    #         driver: driver
+    #
+    #     """
+    #     self.driver = driver
+    #     self.width = self.driver.get_window_size()['width']
+    #     self.height = self.driver.get_window_size()['height']
+    #     return self
 
     def adb_shell(self, command, args, includeStderr=False):
         """

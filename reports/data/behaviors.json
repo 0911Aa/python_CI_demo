@@ -5,13 +5,13 @@
     "name" : "BT_test",
     "children" : [ {
       "name" : "test_BT",
-      "uid" : "db4ab82226c1f18d",
+      "uid" : "f06f427ca1fcccff",
       "parentUid" : "71de318037b1ad3b040a1f3f4b187820",
       "status" : "passed",
       "time" : {
-        "start" : 1563351773483,
-        "stop" : 1563351784485,
-        "duration" : 11002
+        "start" : 1563418859409,
+        "stop" : 1563418870739,
+        "duration" : 11330
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -19,13 +19,13 @@
       "name" : "蓝牙开关测试",
       "children" : [ {
         "name" : "test_BT_switch",
-        "uid" : "b0a4da2bb0af07ab",
+        "uid" : "97338d351653319f",
         "parentUid" : "3d85e9bfdaf287244d2069a10308aec4",
         "status" : "passed",
         "time" : {
-          "start" : 1563351784488,
-          "stop" : 1563351842846,
-          "duration" : 58358
+          "start" : 1563418870748,
+          "stop" : 1563418931707,
+          "duration" : 60959
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -37,13 +37,13 @@
     "name" : "Power_test",
     "children" : [ {
       "name" : "test_power",
-      "uid" : "8478247d6c4d0d00",
+      "uid" : "f087a52cb2dbb4f0",
       "parentUid" : "273407fac4ba6dcf8bf4f5ef08906ba1",
       "status" : "broken",
       "time" : {
-        "start" : 1563351849213,
-        "stop" : 1563351850397,
-        "duration" : 1184
+        "start" : 1563418938185,
+        "stop" : 1563418939384,
+        "duration" : 1199
       },
       "flaky" : true,
       "parameters" : [ ]
@@ -53,13 +53,13 @@
     "name" : "WiFi_test",
     "children" : [ {
       "name" : "test_wifi",
-      "uid" : "4f048769884dac30",
+      "uid" : "411cd12afad0c61f",
       "parentUid" : "3953408cf754073f3dd56ebcae981919",
       "status" : "passed",
       "time" : {
-        "start" : 1563351851606,
-        "stop" : 1563351853660,
-        "duration" : 2054
+        "start" : 1563418940925,
+        "stop" : 1563418942827,
+        "duration" : 1902
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -67,13 +67,13 @@
     "uid" : "3953408cf754073f3dd56ebcae981919"
   }, {
     "name" : "test_play_music",
-    "uid" : "666a697291a584c4",
+    "uid" : "d21152626499a436",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1563351855357,
-      "stop" : 1563351877919,
-      "duration" : 22562
+      "start" : 1563418944180,
+      "stop" : 1563418966330,
+      "duration" : 22150
     },
     "flaky" : false,
     "parameters" : [ ]

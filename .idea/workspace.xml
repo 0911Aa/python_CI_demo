@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54b204e0-2ae0-42fc-b1b7-02e944809287" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/testcases/test_player.py" afterDir="false" />
+    <list default="true" id="54b204e0-2ae0-42fc-b1b7-02e944809287" name="Default Changelist" comment="增加自动启动sever功能，根据adb devices显示的设备数量启动同样数量的sever，后续优化脚本可以实现并发">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/2f4ab770-2037-4404-8cbd-f93721400e42-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/history/categories-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/history/duration-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/history/history-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/history/history.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_CI.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/behaviors.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/categories.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/categories.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/packages.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/suites.csv" afterDir="false" />
@@ -25,27 +24,17 @@
       <change beforePath="$PROJECT_DIR$/reports/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/history-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/history.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/behaviors.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/categories-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/categories.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/duration-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/duration.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/history-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/retry-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/severity.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/status-chart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/suites.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/summary.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/settings/config.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings/userconfig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/settings/userconfig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/about_server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/sources/about_server/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/action.py" beforeDir="false" afterPath="$PROJECT_DIR$/sources/action.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/get_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/sources/get_driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/read_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/sources/read_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_case/test_search.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_case/test_top.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testcases/test_BT_switch.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/testcases/test_settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,26 +53,29 @@
     <SUITE FILE_PATH="coverage/python_ci$read_config.coverage" NAME="read_config Coverage Results" MODIFIED="1563347911318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sources" />
     <SUITE FILE_PATH="coverage/python_ci$test.coverage" NAME="test Coverage Results" MODIFIED="1562728077280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/python_ci$port.coverage" NAME="port Coverage Results" MODIFIED="1563336373896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sources/about_server" />
-    <SUITE FILE_PATH="coverage/python_ci$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1563351736278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_ci$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1563416770442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_ci$driver.coverage" NAME="driver Coverage Results" MODIFIED="1562817668288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sources" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1630317287">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="README" value="1" />
+          <entry key="README" value="2" />
+          <entry key="bat" value="3" />
           <entry key="css" value="1" />
           <entry key="csv" value="2" />
           <entry key="gitignore" value="1" />
@@ -92,7 +84,7 @@
           <entry key="js" value="1" />
           <entry key="json" value="9" />
           <entry key="lastfailed" value="1" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="png" value="3" />
           <entry key="py" value="70" />
           <entry key="txt" value="4" />
@@ -110,8 +102,8 @@
           <entry key="Ini" value="6" />
           <entry key="JSON" value="9" />
           <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="11" />
           <entry key="Python" value="70" />
           <entry key="XML" value="1" />
           <entry key="YAML" value="13" />
@@ -119,17 +111,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="bat" value="22" />
           <entry key="dummy" value="23" />
           <entry key="ini" value="157" />
-          <entry key="py" value="3485" />
-          <entry key="txt" value="193" />
+          <entry key="md" value="52" />
+          <entry key="py" value="3720" />
+          <entry key="txt" value="199" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="157" />
-          <entry key="PLAIN_TEXT" value="216" />
-          <entry key="Python" value="3485" />
+          <entry key="Markdown" value="52" />
+          <entry key="PLAIN_TEXT" value="244" />
+          <entry key="Python" value="3720" />
         </counts>
       </usages-collector>
     </session>
@@ -139,11 +134,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            <state relative-caret-position="220">
+              <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
               <folding>
-                <element signature="e#23#55#0" expanded="true" />
+                <element signature="e#24#56#0" expanded="true" />
+                <marker date="1563418809359" expanded="true" signature="291:368" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="132">
+                <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -151,8 +159,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/read_config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            <state relative-caret-position="110">
+              <caret line="6" column="69" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="69" />
               <folding>
                 <element signature="e#50#69#0" expanded="true" />
               </folding>
@@ -163,8 +171,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/about_server/write_user_command.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="22">
+              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
               <folding>
                 <element signature="e#74#85#0" expanded="true" />
               </folding>
@@ -175,7 +183,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcases/test_settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-440">
+            <state relative-caret-position="286">
               <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
                 <marker date="1563350529765" expanded="true" signature="375:386" ph="..." />
@@ -187,13 +195,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/action.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+            <state relative-caret-position="1298">
+              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
               <folding>
                 <element signature="e#62#73#0" expanded="true" />
-                <marker date="1563351885310" expanded="true" signature="1260:1270" ph="..." />
-                <marker date="1563351885310" expanded="true" signature="1260:1887" ph="..." />
-                <marker date="1563351885310" expanded="true" signature="1881:1887" ph="..." />
+                <marker date="1563411516475" expanded="true" signature="1260:1270" ph="..." />
               </folding>
             </state>
           </provider>
@@ -211,7 +217,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcases/test_player.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="330">
               <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
               <folding>
                 <element signature="e#25#50#0" expanded="true" />
@@ -271,8 +277,10 @@
         <option value="$PROJECT_DIR$/settings/config.ini" />
         <option value="$PROJECT_DIR$/src/testcases/test_player.py" />
         <option value="$PROJECT_DIR$/src/testcases/test_settings.py" />
-        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/sources/action.py" />
+        <option value="$PROJECT_DIR$/python_CI.bat" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/run.py" />
       </list>
     </option>
   </component>
@@ -283,8 +291,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-34" />
-    <option name="y" value="55" />
+    <option name="x" value="-148" />
+    <option name="y" value="29" />
     <option name="width" value="1376" />
     <option name="height" value="754" />
   </component>
@@ -303,22 +311,6 @@
             <path>
               <item name="python_ci" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_ci" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_ci" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_ci" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_ci" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_ci" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_ci" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_ci" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -529,18 +521,26 @@
       <option name="project" value="LOCAL" />
       <updated>1563344819981</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="增加自动启动sever功能，根据adb devices显示的设备数量启动同样数量的sever，后续优化脚本可以实现并发">
+      <created>1563353755589</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563353755589</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24696049" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25835866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924013" weight="0.7081967" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924013" visible="true" weight="0.052459016" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41967213" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -567,30 +567,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="删除无用文件" />
     <MESSAGE value="增加自动启动sever功能，根据adb devices显示的设备数量启动同样数量的sever，可以实现并发" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加自动启动sever功能，根据adb devices显示的设备数量启动同样数量的sever，可以实现并发" />
+    <MESSAGE value="增加自动启动sever功能，根据adb devices显示的设备数量启动同样数量的sever，后续优化脚本可以实现并发" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加自动启动sever功能，根据adb devices显示的设备数量启动同样数量的sever，后续优化脚本可以实现并发" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logs/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="813">
-          <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/urllib3/util/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/appium/webdriver/extensions/applications.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test_main.py" />
     <entry file="file://$PROJECT_DIR$/report/test/3fd2cdff-07a3-4d31-902a-a49283fcd665-testsuite.xml" />
     <entry file="file://$PROJECT_DIR$/.pytest_cache/.gitignore">
@@ -707,9 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1012">
           <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-          <folding>
-            <element signature="e#25#53#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,10 +708,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/settings/userconfig.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_CI.bat" />
     <entry file="file://$PROJECT_DIR$/sources/read_config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        <state relative-caret-position="110">
+          <caret line="6" column="69" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="69" />
           <folding>
             <element signature="e#50#69#0" expanded="true" />
           </folding>
@@ -743,10 +728,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sources/about_server/write_user_command.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="22">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
           <folding>
             <element signature="e#74#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcases/test_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <marker date="1563350529765" expanded="true" signature="375:386" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding>
+            <element signature="e#62#73#0" expanded="true" />
+            <marker date="1563411516475" expanded="true" signature="1260:1270" ph="..." />
           </folding>
         </state>
       </provider>
@@ -758,16 +764,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings/userconfig.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testcases/test_player.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="330">
           <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
           <folding>
             <element signature="e#25#50#0" expanded="true" />
@@ -775,35 +774,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcases/test_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <marker date="1563350529765" expanded="true" signature="375:386" ph="..." />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/action.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
-          <folding>
-            <element signature="e#62#73#0" expanded="true" />
-            <marker date="1563351885310" expanded="true" signature="1260:1270" ph="..." />
-            <marker date="1563351885310" expanded="true" signature="1260:1887" ph="..." />
-            <marker date="1563351885310" expanded="true" signature="1881:1887" ph="..." />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="132">
+            <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="220">
+          <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
           <folding>
-            <element signature="e#23#55#0" expanded="true" />
+            <element signature="e#24#56#0" expanded="true" />
+            <marker date="1563418809359" expanded="true" signature="291:368" ph="..." />
           </folding>
         </state>
       </provider>
