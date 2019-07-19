@@ -23,6 +23,7 @@ class Server:
         :return:
         """
         devices_list = []
+        self.dos.excute_cmd('adb start-server')
         result_list = self.dos.excute_cmd_result('adb devices')
         # print (result_list)
         if len(result_list)>=2 and '\tdevice' in result_list[-1]:
@@ -30,6 +31,7 @@ class Server:
                 if 'List' in i:
                     continue
                 devices_info = i.split('\t')
+                # print(devices_info)
                 if devices_info[1] == 'device':
                     devices_list.append(devices_info[0])
             return devices_list
@@ -95,6 +97,6 @@ class Server:
                    
 if __name__ == '__main__':
     server = Server()
-    # print (server.get_device())
-    # print(server.create_command_list(0))
-    server.main()
+    print (server.get_device())
+    # # print(server.create_command_list(0))
+    # server.main()
