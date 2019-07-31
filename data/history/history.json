@@ -2,13 +2,22 @@
   "a8036b26306cb7cf18fef4d11e13b128" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 14,
+      "broken" : 15,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "b0aee6038e5a7ed4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1563433480391,
+        "stop" : 1563433481472,
+        "duration" : 1081
+      }
+    }, {
       "uid" : "a01a21b5eb167487",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
@@ -44,15 +53,6 @@
         "stop" : 1563418939384,
         "duration" : 1199
       }
-    }, {
-      "uid" : "dc536473f5b1821f",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
-      "time" : {
-        "start" : 1563418760279,
-        "stop" : 1563418761482,
-        "duration" : 1203
-      }
     } ]
   },
   "cd3af079d6be3506834bf9519cd412d0" : {
@@ -60,11 +60,19 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "e3bfc14f2854a451",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563433413381,
+        "stop" : 1563433474382,
+        "duration" : 61001
+      }
+    }, {
       "uid" : "78ee8d4d48219157",
       "status" : "passed",
       "time" : {
@@ -97,14 +105,6 @@
         "stop" : 1563418931707,
         "duration" : 60959
       }
-    }, {
-      "uid" : "7a38a5ffbb70bc99",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563418695294,
-        "stop" : 1563418753962,
-        "duration" : 58668
-      }
     } ]
   },
   "3ae0e59d7c1a140277f3274ea67e8742" : {
@@ -112,11 +112,19 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "a5b9fb08c3698fab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563433402509,
+        "stop" : 1563433413378,
+        "duration" : 10869
+      }
+    }, {
       "uid" : "fa55f8786f8dc545",
       "status" : "passed",
       "time" : {
@@ -149,14 +157,6 @@
         "stop" : 1563418870739,
         "duration" : 11330
       }
-    }, {
-      "uid" : "1c92d210fa92ca75",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563418684230,
-        "stop" : 1563418695284,
-        "duration" : 11054
-      }
     } ]
   },
   "b637be93eff4c9524ae7cdfab8d3d2cf" : {
@@ -164,11 +164,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 13,
+      "passed" : 14,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "78bcccd9e310a6f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563433482602,
+        "stop" : 1563433484502,
+        "duration" : 1900
+      }
+    }, {
       "uid" : "ddb56e230a6a70d1",
       "status" : "passed",
       "time" : {
@@ -201,14 +209,6 @@
         "stop" : 1563418942827,
         "duration" : 1902
       }
-    }, {
-      "uid" : "3cb1edb3bd9d65ee",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563418762981,
-        "stop" : 1563418764898,
-        "duration" : 1917
-      }
     } ]
   },
   "8b55efb98fe32e750b2dc577c3f64616" : {
@@ -216,11 +216,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "1a8ad9418677f8b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563433485836,
+        "stop" : 1563433504360,
+        "duration" : 18524
+      }
+    }, {
       "uid" : "b1995dc1a7dc7655",
       "status" : "passed",
       "time" : {
@@ -251,14 +259,6 @@
         "start" : 1563418944180,
         "stop" : 1563418966330,
         "duration" : 22150
-      }
-    }, {
-      "uid" : "5a900b9a1c31eb15",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563418766249,
-        "stop" : 1563418788362,
-        "duration" : 22113
       }
     } ]
   }
