@@ -17,7 +17,7 @@ class WriteUserCommand:
         data是一个字典，里面又放了一个字典
         """
         with open(BASE_DIR+"/settings/userconfig.yaml") as fr:
-            data = yaml.load(fr)
+            data = yaml.load(fr, Loader=yaml.FullLoader)
         return data
             
     def get_value(self,key,port):

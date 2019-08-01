@@ -1,0 +1,177 @@
+{
+  "uid" : "4daf49e0fa6aea4b",
+  "name" : "test_play_music",
+  "fullName" : "src.testcases.test_player.TestSetting#test_play_music",
+  "historyId" : "8b55efb98fe32e750b2dc577c3f64616",
+  "time" : {
+    "start" : 1564632499615,
+    "stop" : 1564632522672,
+    "duration" : 23057
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1564632497984,
+      "stop" : 1564632499615,
+      "duration" : 1631
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "启动应用程序com.android.mediacenter/.PageActivity",
+      "time" : {
+        "start" : 1564632497984,
+        "stop" : 1564632499615,
+        "duration" : 1631
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "检查：'播放/暂停键'",
+      "time" : {
+        "start" : 1564632499615,
+        "stop" : 1564632509863,
+        "duration" : 10248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1564632522672,
+      "stop" : 1564632524052,
+      "duration" : 1380
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_player"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSetting"
+  }, {
+    "name" : "host",
+    "value" : "HZH4267C"
+  }, {
+    "name" : "thread",
+    "value" : "14800-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.testcases.test_player"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "1a8ad9418677f8b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563433485836,
+          "stop" : 1563433504360,
+          "duration" : 18524
+        }
+      }, {
+        "uid" : "b1995dc1a7dc7655",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563433250948,
+          "stop" : 1563433273171,
+          "duration" : 22223
+        }
+      }, {
+        "uid" : "6a920454bfdadf63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563432944307,
+          "stop" : 1563432963059,
+          "duration" : 18752
+        }
+      }, {
+        "uid" : "26f3a93e43dd2cae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563432654612,
+          "stop" : 1563432676242,
+          "duration" : 21630
+        }
+      }, {
+        "uid" : "d21152626499a436",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563418944180,
+          "stop" : 1563418966330,
+          "duration" : 22150
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4daf49e0fa6aea4b.json",
+  "parameterValues" : [ ]
+}

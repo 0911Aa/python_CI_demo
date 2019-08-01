@@ -1,8 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54b204e0-2ae0-42fc-b1b7-02e944809287" name="Default Changelist" comment="">
+    <list default="true" id="54b204e0-2ae0-42fc-b1b7-02e944809287" name="Default Changelist" comment="增加case结束后关闭server">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/18325886-73c6-4feb-a83b-4a754f6856e6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1d5faec7-3929-4461-9005-d5c09fd35b81-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/27416167-1c42-4dd1-8856-6e2529a2032f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/303998a5-6758-4c07-8639-3c79dd375016-attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/4c62efd1-333e-494c-80f7-c91c4166766d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/4deaa6e7-dfbf-4d06-b62b-724a74e25ed7-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/5821e4a1-1a77-40c0-a932-f937908a819a-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/6708bd2f-7973-471d-aa8d-ab0d6e496657-attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/737f678e-ada1-40d6-9052-7184196ac607-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/931fb0cd-90f8-4070-b766-ced9fb41d90a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/9554cf5f-638e-4873-9852-7c8af3914aae-attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/977feb40-5deb-44a8-aff6-5d4f6c484887-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/b4745662-8eb6-4b8c-bcaa-43f42f8d43ec-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/b9b09516-98bd-4bf4-9f9d-55c03a1b752e-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/c1b7d180-da69-4446-8f95-481f3d7e4203-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/d0251e63-cd8f-48b9-a483-afd1aadf4550-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/e861d971-4ce2-48b3-be54-156ba5b1a7cc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/eaa11380-91ad-40d0-bd5f-68204f380449-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/f31c8e04-29ae-4adf-8af4-ddbf61cd4119-attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/attachments/222969a175bb7e65.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/attachments/49dfe237025a9381.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/attachments/80678057ba6dd08f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/attachments/81a16d45290c2fd3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/attachments/a6480e9c83eab9fa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/attachments/df35340444b0ad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/attachments/eb3ae8965486dd1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/attachments/fe2eec3046dca525.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/25361a4037e5e3a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/28acdbda827555df.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/4daf49e0fa6aea4b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/525401fea2b0b1cf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/813ad52ee32ca433.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/a0ed01c0d3134294.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/bb2e83d7cf420b87.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/ee2eb0e191f2e0ee.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/43d0c86c-846c-4dbc-ae2d-e19753732de1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/57b5a472-86b8-4355-bfb6-21aabac91677-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/5d853ccb-37a9-40b0-8312-91ce91b67321-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/734b5e1f-f449-49da-8339-7e39d199b81d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/82b1cd52-47a3-4345-a365-7e397385d7ca-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/895fcf55-e003-4abe-9a04-8eb4da52bcd7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/b5974c2f-b80c-42b9-bf36-17164e0f1bf6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/d536727d-0c45-4565-9e34-dc4a623da746-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/de40d800-c03f-4c09-8e58-67fcb5dedd07-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ee5452ac-025d-43be-bb1d-31ea171c1466-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/export/mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/export/mail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/reports/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/plugins/behaviors/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/plugins/behaviors/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/plugins/packages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/plugins/packages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/plugins/screen-diff/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/plugins/screen-diff/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/plugins/screen-diff/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/reports/plugins/screen-diff/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/reports/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/userconfig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/settings/userconfig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/about_server/write_user_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/sources/about_server/write_user_command.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,210 +110,6 @@
     <SUITE FILE_PATH="coverage/python_ci$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1563433364954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_ci$driver.coverage" NAME="driver Coverage Results" MODIFIED="1562817668288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sources" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1630317287">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="4" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="README" value="2" />
-          <entry key="bat" value="3" />
-          <entry key="css" value="1" />
-          <entry key="csv" value="2" />
-          <entry key="gitignore" value="1" />
-          <entry key="html" value="5" />
-          <entry key="ini" value="6" />
-          <entry key="js" value="1" />
-          <entry key="json" value="9" />
-          <entry key="lastfailed" value="1" />
-          <entry key="md" value="2" />
-          <entry key="png" value="3" />
-          <entry key="py" value="73" />
-          <entry key="txt" value="4" />
-          <entry key="xml" value="1" />
-          <entry key="yaml" value="6" />
-          <entry key="yml" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="1" />
-          <entry key="CSV" value="2" />
-          <entry key="HTML" value="5" />
-          <entry key="Image" value="3" />
-          <entry key="Ini" value="6" />
-          <entry key="JSON" value="9" />
-          <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="73" />
-          <entry key="XML" value="1" />
-          <entry key="YAML" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="bat" value="22" />
-          <entry key="dummy" value="23" />
-          <entry key="ini" value="157" />
-          <entry key="md" value="52" />
-          <entry key="py" value="3814" />
-          <entry key="txt" value="274" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Ini" value="157" />
-          <entry key="Markdown" value="52" />
-          <entry key="PLAIN_TEXT" value="319" />
-          <entry key="Python" value="3814" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-1610668841">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/about_server/write_user_command.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcases/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="683">
-              <caret line="48" column="64" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="64" />
-              <folding>
-                <element signature="e#24#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcases/test_player.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-              <folding>
-                <element signature="e#25#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcases/test_settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="33" />
-              <folding>
-                <element signature="e#25#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings/config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/read_config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="20" column="23" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="38" />
-              <folding>
-                <element signature="e#50#69#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/action.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-816">
-              <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
-              <folding>
-                <element signature="e#62#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conftest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="39" column="7" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -246,45 +128,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test.py" />
-        <option value="$PROJECT_DIR$/src/test_main.py" />
-        <option value="$PROJECT_DIR$/sources/screenshot.py" />
-        <option value="$PROJECT_DIR$/sources/get_logcat.py" />
-        <option value="$PROJECT_DIR$/sources/fileIO.py" />
-        <option value="$PROJECT_DIR$/sources/fail_handle_method1.py" />
-        <option value="$PROJECT_DIR$/bin/run.py" />
-        <option value="$PROJECT_DIR$/sources/driver.py" />
-        <option value="$PROJECT_DIR$/src/conftest.py" />
-        <option value="$PROJECT_DIR$/sources/method.py" />
-        <option value="$PROJECT_DIR$/sources/page.py" />
-        <option value="$PROJECT_DIR$/pytest.ini" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/sources/dos_cmd.py" />
-        <option value="$PROJECT_DIR$/sources/port.py" />
-        <option value="$PROJECT_DIR$/sources/write_user_command.py" />
-        <option value="$PROJECT_DIR$/sources/server.py" />
-        <option value="$PROJECT_DIR$/sources/about_server/dos_cmd.py" />
-        <option value="$PROJECT_DIR$/sources/about_server/write_user_command.py" />
-        <option value="$PROJECT_DIR$/sources/about_server/port.py" />
-        <option value="$PROJECT_DIR$/sources/get_driver.py" />
-        <option value="$PROJECT_DIR$/conftest.py" />
-        <option value="$PROJECT_DIR$/sources/read_config.py" />
-        <option value="$PROJECT_DIR$/src/testcases/test_BT_switch.py" />
-        <option value="$PROJECT_DIR$/sources/action.py" />
-        <option value="$PROJECT_DIR$/python_CI.bat" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/testcases/test_settings.py" />
-        <option value="$PROJECT_DIR$/src/testcases/test_player.py" />
-        <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/run_for_jenkins.py" />
-        <option value="$PROJECT_DIR$/sources/about_server/server.py" />
-        <option value="$PROJECT_DIR$/settings/config.ini" />
-      </list>
-    </option>
-  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -297,59 +140,18 @@
     <option name="width" value="1036" />
     <option name="height" value="503" />
   </component>
+  <component name="ProjectId" id="1Onx1Q8nIZsqeFwTruS9mQx5DWq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="python_CI_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_CI_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_CI_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_CI_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_CI_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_CI_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_CI_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_CI_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_CI_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_CI_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_CI_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -378,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.read_config">
+  <component name="RunManager" selected="Python.run (1)">
     <configuration name="get_driver" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_ci" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -514,9 +316,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.read_config" />
-        <item itemvalue="Python.server" />
         <item itemvalue="Python.run (1)" />
+        <item itemvalue="Python.server" />
+        <item itemvalue="Python.read_config" />
         <item itemvalue="Python.test_BT_switch" />
         <item itemvalue="Python.get_driver" />
       </list>
@@ -578,33 +380,6 @@
     <option name="localTasksCounter" value="7" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19905214" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924013" visible="true" weight="0.15658747" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41967213" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295082" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007599" side_tool="true" weight="0.6704918" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2487725" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -625,30 +400,15 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="删除无用文件" />
     <MESSAGE value="增加自动启动sever功能，根据adb devices显示的设备数量启动同样数量的sever，可以实现并发" />
     <MESSAGE value="增加自动启动sever功能，根据adb devices显示的设备数量启动同样数量的sever，后续优化脚本可以实现并发" />
@@ -656,206 +416,5 @@
     <MESSAGE value="尝试增加一个jenkins启动文件" />
     <MESSAGE value="增加case结束后关闭server" />
     <option name="LAST_COMMIT_MESSAGE" value="增加case结束后关闭server" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/setting_page/main_page.py" />
-    <entry file="file://C:/Python37/Lib/site-packages/appium/webdriver/errorhandler.py" />
-    <entry file="file://C:/Python37/Lib/site-packages/selenium/webdriver/remote/errorhandler.py" />
-    <entry file="file://$PROJECT_DIR$/src/test_case/test_search.yml" />
-    <entry file="file://$PROJECT_DIR$/src/test_case/test_top.yml" />
-    <entry file="file://C:/Python37/Lib/site-packages/selenium/webdriver/support/wait.py" />
-    <entry file="file://$PROJECT_DIR$/reports/data/attachments/244fda62a2cfe3f.png" />
-    <entry file="file://$PROJECT_DIR$/reports/data/attachments/26a20c133b8a9df0.png" />
-    <entry file="file://$PROJECT_DIR$/reports/data/attachments/23e17b0d866d3ae6.png" />
-    <entry file="file://C:/Python37/Lib/site-packages/_pytest/config/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/reports/styles.css" />
-    <entry file="file://$PROJECT_DIR$/reports/app.js" />
-    <entry file="file://$PROJECT_DIR$/reports/index.html" />
-    <entry file="file://$PROJECT_DIR$/reports/data/suites.csv" />
-    <entry file="file://$PROJECT_DIR$/reports/data/behaviors.csv" />
-    <entry file="file://$PROJECT_DIR$/reports/data/suites.json" />
-    <entry file="file://$PROJECT_DIR$/reports/widgets/history-trend.json" />
-    <entry file="file://$PROJECT_DIR$/reports/history/history.json" />
-    <entry file="file://$PROJECT_DIR$/reports/history/duration-trend.json" />
-    <entry file="file://$PROJECT_DIR$/reports/history/categories-trend.json" />
-    <entry file="file://$PROJECT_DIR$/data/history/history.json" />
-    <entry file="file://$PROJECT_DIR$/reports/history/retry-trend.json" />
-    <entry file="file://$PROJECT_DIR$/reports/history/history-trend.json" />
-    <entry file="file://$PROJECT_DIR$/sources/fail_handle_method1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-185">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/user_command.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/method.py" />
-    <entry file="file://$PROJECT_DIR$/sources/get_logcat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/driver.py" />
-    <entry file="file://$PROJECT_DIR$/sources/shell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1254" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/about_server/port.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/about_server/dos_cmd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/get_driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings/userconfig.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_CI.bat" />
-    <entry file="file://$PROJECT_DIR$/README" />
-    <entry file="file://$PROJECT_DIR$/run_for_jenkins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/about_server/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/about_server/write_user_command.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcases/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="48" column="64" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="64" />
-          <folding>
-            <element signature="e#24#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcases/test_player.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="e#25#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/action.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
-          <folding>
-            <element signature="e#62#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcases/test_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="33" />
-          <folding>
-            <element signature="e#25#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/read_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="e#50#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

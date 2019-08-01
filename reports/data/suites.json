@@ -9,51 +9,55 @@
         "name" : "TestSetting",
         "children" : [ {
           "name" : "test_BT",
-          "uid" : "a5b9fb08c3698fab",
+          "uid" : "25361a4037e5e3a",
           "parentUid" : "41d9a63e4d229e3bde4e4aa81bfd1078",
           "status" : "passed",
           "time" : {
-            "start" : 1563433402509,
-            "stop" : 1563433413378,
-            "duration" : 10869
+            "start" : 1564632418704,
+            "stop" : 1564632429444,
+            "duration" : 10740
           },
           "flaky" : false,
+          "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "test_BT_switch",
-          "uid" : "e3bfc14f2854a451",
+          "uid" : "a0ed01c0d3134294",
           "parentUid" : "41d9a63e4d229e3bde4e4aa81bfd1078",
           "status" : "passed",
           "time" : {
-            "start" : 1563433413381,
-            "stop" : 1563433474382,
-            "duration" : 61001
+            "start" : 1564632429447,
+            "stop" : 1564632488372,
+            "duration" : 58925
           },
           "flaky" : false,
+          "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "test_power",
-          "uid" : "b0aee6038e5a7ed4",
+          "uid" : "ee2eb0e191f2e0ee",
           "parentUid" : "41d9a63e4d229e3bde4e4aa81bfd1078",
           "status" : "broken",
           "time" : {
-            "start" : 1563433480391,
-            "stop" : 1563433481472,
-            "duration" : 1081
+            "start" : 1564632493910,
+            "stop" : 1564632495053,
+            "duration" : 1143
           },
-          "flaky" : true,
+          "flaky" : false,
+          "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "test_wifi",
-          "uid" : "78bcccd9e310a6f8",
+          "uid" : "525401fea2b0b1cf",
           "parentUid" : "41d9a63e4d229e3bde4e4aa81bfd1078",
           "status" : "passed",
           "time" : {
-            "start" : 1563433482602,
-            "stop" : 1563433484502,
-            "duration" : 1900
+            "start" : 1564632496063,
+            "stop" : 1564632497978,
+            "duration" : 1915
           },
           "flaky" : false,
+          "newFailed" : false,
           "parameters" : [ ]
         } ],
         "uid" : "41d9a63e4d229e3bde4e4aa81bfd1078"
@@ -65,15 +69,16 @@
         "name" : "TestSetting",
         "children" : [ {
           "name" : "test_play_music",
-          "uid" : "1a8ad9418677f8b2",
+          "uid" : "4daf49e0fa6aea4b",
           "parentUid" : "d059ee2ab4911b1708f1a1c3499e4d48",
           "status" : "passed",
           "time" : {
-            "start" : 1563433485836,
-            "stop" : 1563433504360,
-            "duration" : 18524
+            "start" : 1564632499615,
+            "stop" : 1564632522672,
+            "duration" : 23057
           },
           "flaky" : false,
+          "newFailed" : false,
           "parameters" : [ ]
         } ],
         "uid" : "d059ee2ab4911b1708f1a1c3499e4d48"

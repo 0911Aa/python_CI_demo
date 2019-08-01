@@ -2,72 +2,116 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "WINDOWS-POQJ4DC",
+    "name" : "HZH4267C",
     "children" : [ {
-      "name" : "13000-MainThread",
+      "name" : "14800-MainThread",
       "children" : [ {
-        "name" : "test_BT",
-        "uid" : "a5b9fb08c3698fab",
-        "parentUid" : "89e7047baab6f9102f4d5dda07aee7ca",
-        "status" : "passed",
+        "name" : "test_power",
+        "uid" : "bb2e83d7cf420b87",
+        "parentUid" : "6461f1c65131654c73cc4dda64739249",
+        "status" : "broken",
         "time" : {
-          "start" : 1563433402509,
-          "stop" : 1563433413378,
-          "duration" : 10869
+          "start" : 1564632491610,
+          "stop" : 1564632492886,
+          "duration" : 1276
         },
         "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_BT_switch",
-        "uid" : "e3bfc14f2854a451",
-        "parentUid" : "89e7047baab6f9102f4d5dda07aee7ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1563433413381,
-          "stop" : 1563433474382,
-          "duration" : 61001
-        },
-        "flaky" : false,
+        "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_wifi",
-        "uid" : "78bcccd9e310a6f8",
-        "parentUid" : "89e7047baab6f9102f4d5dda07aee7ca",
+        "uid" : "525401fea2b0b1cf",
+        "parentUid" : "6461f1c65131654c73cc4dda64739249",
         "status" : "passed",
         "time" : {
-          "start" : 1563433482602,
-          "stop" : 1563433484502,
-          "duration" : 1900
+          "start" : 1564632496063,
+          "stop" : 1564632497978,
+          "duration" : 1915
         },
         "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_BT",
+        "uid" : "25361a4037e5e3a",
+        "parentUid" : "6461f1c65131654c73cc4dda64739249",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564632418704,
+          "stop" : 1564632429444,
+          "duration" : 10740
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_BT",
+        "uid" : "813ad52ee32ca433",
+        "parentUid" : "6461f1c65131654c73cc4dda64739249",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564632412863,
+          "stop" : 1564632414120,
+          "duration" : 1257
+        },
+        "flaky" : false,
+        "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_power",
-        "uid" : "b0aee6038e5a7ed4",
-        "parentUid" : "89e7047baab6f9102f4d5dda07aee7ca",
+        "uid" : "28acdbda827555df",
+        "parentUid" : "6461f1c65131654c73cc4dda64739249",
         "status" : "broken",
         "time" : {
-          "start" : 1563433480391,
-          "stop" : 1563433481472,
-          "duration" : 1081
+          "start" : 1564632488375,
+          "stop" : 1564632490418,
+          "duration" : 2043
         },
-        "flaky" : true,
+        "flaky" : false,
+        "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_play_music",
-        "uid" : "1a8ad9418677f8b2",
-        "parentUid" : "89e7047baab6f9102f4d5dda07aee7ca",
+        "uid" : "4daf49e0fa6aea4b",
+        "parentUid" : "6461f1c65131654c73cc4dda64739249",
         "status" : "passed",
         "time" : {
-          "start" : 1563433485836,
-          "stop" : 1563433504360,
-          "duration" : 18524
+          "start" : 1564632499615,
+          "stop" : 1564632522672,
+          "duration" : 23057
         },
         "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_BT_switch",
+        "uid" : "a0ed01c0d3134294",
+        "parentUid" : "6461f1c65131654c73cc4dda64739249",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564632429447,
+          "stop" : 1564632488372,
+          "duration" : 58925
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_power",
+        "uid" : "ee2eb0e191f2e0ee",
+        "parentUid" : "6461f1c65131654c73cc4dda64739249",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564632493910,
+          "stop" : 1564632495053,
+          "duration" : 1143
+        },
+        "flaky" : false,
+        "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "89e7047baab6f9102f4d5dda07aee7ca"
+      "uid" : "6461f1c65131654c73cc4dda64739249"
     } ],
-    "uid" : "a1296cfe60b316b6865b40f099cc0134"
+    "uid" : "7a3face995ecaabbbacd3368484d2cdd"
   } ]
 }

@@ -7,15 +7,16 @@
       "name" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
       "children" : [ {
         "name" : "test_power",
-        "uid" : "b0aee6038e5a7ed4",
+        "uid" : "ee2eb0e191f2e0ee",
         "parentUid" : "7a823ebd65a5f17ad39e628108c6e522",
         "status" : "broken",
         "time" : {
-          "start" : 1563433480391,
-          "stop" : 1563433481472,
-          "duration" : 1081
+          "start" : 1564632493910,
+          "stop" : 1564632495053,
+          "duration" : 1143
         },
-        "flaky" : true,
+        "flaky" : false,
+        "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "7a823ebd65a5f17ad39e628108c6e522"

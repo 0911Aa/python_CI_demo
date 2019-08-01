@@ -1,0 +1,174 @@
+{
+  "uid" : "a0ed01c0d3134294",
+  "name" : "test_BT_switch",
+  "fullName" : "src.testcases.test_settings.TestSetting#test_BT_switch",
+  "historyId" : "cd3af079d6be3506834bf9519cd412d0",
+  "time" : {
+    "start" : 1564632429447,
+    "stop" : 1564632488372,
+    "duration" : 58925
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1564632405096,
+      "stop" : 1564632412850,
+      "duration" : 7754
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1564632405096,
+      "stop" : 1564632405096,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1564632497979,
+      "stop" : 1564632497979,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1564632497980,
+      "stop" : 1564632497980,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "BT_test"
+  }, {
+    "name" : "story",
+    "value" : "蓝牙开关测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_settings"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSetting"
+  }, {
+    "name" : "host",
+    "value" : "HZH4267C"
+  }, {
+    "name" : "thread",
+    "value" : "14800-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.testcases.test_settings"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "e3bfc14f2854a451",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563433413381,
+          "stop" : 1563433474382,
+          "duration" : 61001
+        }
+      }, {
+        "uid" : "78ee8d4d48219157",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563433178463,
+          "stop" : 1563433239493,
+          "duration" : 61030
+        }
+      }, {
+        "uid" : "6b9ac81518f316e9",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'TestSetting' object has no attribute 'Action'",
+        "time" : {
+          "start" : 1563432935058,
+          "stop" : 1563432935058,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d60f4aa32b683660",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563432583894,
+          "stop" : 1563432643003,
+          "duration" : 59109
+        }
+      }, {
+        "uid" : "97338d351653319f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563418870748,
+          "stop" : 1563418931707,
+          "duration" : 60959
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a0ed01c0d3134294.json",
+  "parameterValues" : [ ]
+}

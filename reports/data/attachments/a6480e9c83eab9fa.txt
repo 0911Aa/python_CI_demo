@@ -1,0 +1,1090 @@
+08-01 12:08:09.832  1147  2852 D KeyEvent: obtain, mHwFlags=0
+08-01 12:08:09.832  1147  2852 D HwCustPhoneWindowManager: answer call by keyCode = 3, down = true, isSupVolumnkeyAnswerCall = false
+08-01 12:08:09.832  1147  2852 D WindowManager: interceptKeyBeforeQueueing: key 3 , result : 1
+08-01 12:08:09.833  1147  1325 D KeyEvent: obtain, mHwFlags=-869704624
+08-01 12:08:09.835  1147  1325 D HwGameAssistantController: Keycontrol mode is 0 for user 0
+08-01 12:08:09.835  1147  1325 D HwPhoneWindowManager: deviceId:-1 mFingerPrintId:0 isGameKeyControlOn:false,EnableKey=false,mLastKeyDownDropped=false
+08-01 12:08:09.836  1147  2852 D KeyEvent: obtain, mHwFlags=0
+08-01 12:08:09.836  1147  2852 D HwCustPhoneWindowManager: answer call by keyCode = 3, down = false, isSupVolumnkeyAnswerCall = false
+08-01 12:08:09.836  1147  2852 D WindowManager: interceptKeyBeforeQueueing: key 3 , result : 1
+08-01 12:08:09.836  1147  1325 D KeyEvent: obtain, mHwFlags=-869704624
+08-01 12:08:09.836  1147  1325 I InputManager: preStart Home return.
+08-01 12:08:09.837  1147  1325 D HwGameAssistantController: Keycontrol mode is 0 for user 0
+08-01 12:08:09.837  1147  1325 D HwPhoneWindowManager: deviceId:-1 mFingerPrintId:0 isGameKeyControlOn:false,EnableKey=false,mLastKeyDownDropped=false
+08-01 12:08:09.840 27577 27577 W HwKeyguardDragHelper: AnimationBlocked
+08-01 12:08:09.845  1147  1325 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200200 cmp=com.huawei.android.launcher/.unihome.UniHomeLauncher (has extras)} from uid 1000
+08-01 12:08:09.845  1147  1325 I ActivityManager: ActivityRecord info: ActivityInfo{9c576da com.huawei.android.launcher.unihome.UniHomeLauncher}
+08-01 12:08:09.846  1886  2177 I ash     : front pkg : com.huawei.android.launcher launcher: false
+08-01 12:08:09.847  1886  2177 I ash     : above launcher front pkgs: [com.android.settings, com.huawei.android.launcher]
+08-01 12:08:09.854  1147  1325 D ActivityManager: allPausedActivitiesComplete: r=ActivityRecord{5bf326c u0 com.android.settings/.HWSettings t1348} state=PAUSING
+08-01 12:08:09.867  1147 10270 V WindowManager: No longer Stopped: AppWindowToken{57efd19 token=Token{ef87460 ActivityRecord{b1b063 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1125}}}
+08-01 12:08:09.867  1147 10270 V WindowManager: findFocusedWindow: AppWindowToken{3f4bcca token=Token{f4d9035 ActivityRecord{5bf326c u0 com.android.settings/.HWSettings t1348}}} below Reached focused app=AppWindowToken{57efd19 token=Token{ef87460 ActivityRecord{b1b063 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1125}}}
+08-01 12:08:09.870  1886  2035 D ScenarioService: front pkg : com.huawei.android.launcher launcher: true
+08-01 12:08:09.871  1886  2035 I AppsUsage: scnOff:false FgAPP:com.huawei.android.launcher BgAPP:com.android.settings
+08-01 12:08:09.871  1886  2177 I ash     : front pkg : com.huawei.android.launcher launcher: true
+08-01 12:08:09.872  2683  5702 D [HwRecSys]HwRecSysService: onEvent actionID: 10010 msg:com.huawei.android.launcher
+08-01 12:08:09.873  2683  5702 I [HwRecSys]HwRecSysService:  cur pkg: com.huawei.android.launcher
+08-01 12:08:09.873  2983  2983 I HiBoard_Workspace: onWindowVisibilityChanged：0 isOverlayClosed:true
+08-01 12:08:09.873  2983  2983 I HiBoard_MainView: onWindowVisibilityChanged：0 isOverlayClosed:true
+08-01 12:08:09.873  2983  2983 I HiBoard_FlowLayout: onWindowVisibilityChanged：0 isOverlayClosed:true
+08-01 12:08:09.875  1886  2342 I PGServer: report state:10000 event type:2 pid:0 uid:0 pkg:com.android.settings to pid: 1147
+08-01 12:08:09.875  1886  2342 I PGServer: report state:10000 event type:2 pid:0 uid:0 pkg:com.android.settings to pid: 1886
+08-01 12:08:09.876  1886  2342 I SceneReceiver: state type: 10000 eventType:2 pid:0 uid:0 pkg:com.android.settings
+08-01 12:08:09.876  1886  2342 I PGServer: report state:10010 event type:1 pid:0 uid:0 pkg:com.huawei.android.launcher to pid: 1147
+08-01 12:08:09.876  1886  2342 I PGServer: report state:10010 event type:1 pid:0 uid:0 pkg:com.huawei.android.launcher to pid: 1886
+08-01 12:08:09.876  1886  2342 I SceneReceiver: state type: 10010 eventType:1 pid:0 uid:0 pkg:com.huawei.android.launcher
+08-01 12:08:09.876  1147  1394 D EmcomManagerService: forePackage name is com.huawei.android.launcher
+08-01 12:08:09.876  1147  1394 D HicomPolicyManager: foreAppInfo = nullpkgName = com.huawei.android.launcher uid= 10057
+08-01 12:08:09.876  1147  1394 E HicomPolicyManager: udp acc is not start yet!
+08-01 12:08:09.876  1147  1394 D HicomPolicyManager: speed control is not start
+08-01 12:08:09.876  1147  1394 E HicomPolicyManager: Network Evaluation is not start yet!
+08-01 12:08:09.876  1147  1394 E HicomPolicyManager: foreground app info is null
+08-01 12:08:09.876  1886  2552 D HwThermalStateManager: current foreapp pkg : com.huawei.android.launcher
+08-01 12:08:09.877  2683  5702 E [HwRecSys]ServiceHelper: accessibility_service_name:com.huawei.recsys/com.huawei.recsys.service.PortraitDaService
+08-01 12:08:09.877  2683  5702 E [HwRecSys]ServiceHelper: multiScreenShotService:ComponentInfo{com.huawei.recsys/com.huawei.recsys.service.PortraitDaService}
+08-01 12:08:09.877  1147  9318 V WindowManager: findFocusedWindow: AppWindowToken{3f4bcca token=Token{f4d9035 ActivityRecord{5bf326c u0 com.android.settings/.HWSettings t1348}}} below Reached focused app=AppWindowToken{57efd19 token=Token{ef87460 ActivityRecord{b1b063 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1125}}}
+08-01 12:08:09.877  1147  9318 D WindowManager: face_rotation: isIntelliServiceEnabled: ro swtich off
+08-01 12:08:09.877  1147  9318 I WindowManager: rotationForOrientationLw(orient=1, last=0); user=0
+08-01 12:08:09.877  1147  9318 D WindowManager: face_rotation: isIntelliServiceEnabled: ro swtich off
+08-01 12:08:09.877  1147  9318 D HwPhoneWindowManager: face_rotation: not enabled,use sensor real
+08-01 12:08:09.878  1147  9318 D HwPhoneWindowManager: face_rotation:real sensor rotation = -1
+08-01 12:08:09.878  1147  9318 D HwPhoneWindowManager: face_rotation: rotation = 0
+08-01 12:08:09.878  1147  9318 I WindowManager: Selected orientation 1, got rotation 0 which has compatible metrics
+08-01 12:08:09.878  1886  9326 I PGServer: checkPkgType. calling pkg: android
+08-01 12:08:09.878  1147  2852 I [SPMN]  : insert SECURE -- name = enabled_accessibility_services, package = com.huawei.recsys, user = 0, value =
+08-01 12:08:09.879  1886  9326 I PGServer: checkPkgType. calling pkg: android
+08-01 12:08:09.880  1886  3657 W libc    : Set property "sys.aps.gameProcessName" to ""
+08-01 12:08:09.880  1147  1883 I [SPMN]  : insert SECURE -- name = accessibility_enabled, package = com.huawei.recsys, user = 0, value = 1
+08-01 12:08:09.881  1886  3657 W libc    : Set property "sys.aps.browserProcessName" to ""
+08-01 12:08:09.881  2683  5702 D [HwRecSys]DirectServiceController: curPkg:com.huawei.android.launcher
+08-01 12:08:09.885  1147  2852 W WindowManager: EGLdebug Created surface WindowStateAnimator{6970791 com.huawei.intelligent.Workspace}
+08-01 12:08:09.886  1147  2852 V WindowManager: findFocusedWindow: AppWindowToken{3f4bcca token=Token{f4d9035 ActivityRecord{5bf326c u0 com.android.settings/.HWSettings t1348}}} below Reached focused app=AppWindowToken{57efd19 token=Token{ef87460 ActivityRecord{b1b063 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1125}}}
+08-01 12:08:09.892   644   644 I GRALLOC : 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=644
+08-01 12:08:09.892   644   644 I GRALLOC : 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0
+08-01 12:08:09.892   644   644 I GRALLOC : 	 iova_size=8486912,conUsg=0x900,proUsg=0x900,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=0,ionhnd = 1
+08-01 12:08:09.894   644   644 I chatty  : uid=1000(system) allocator@2.0-s identical 1 line
+08-01 12:08:09.897   644   644 I GRALLOC : 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=644
+08-01 12:08:09.897   644   644 I GRALLOC : 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0
+08-01 12:08:09.897   644   644 I GRALLOC : 	 iova_size=8486912,conUsg=0x900,proUsg=0x900,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=0,ionhnd = 1
+08-01 12:08:09.898  2983 22918 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+08-01 12:08:09.904  1147 10270 I WindowManager: Taking screenshot from Surface with crop:[Rect(0, 72 - 1080, 1787)], width:[648], height:[1029], minLayer:[21010], maxLayer:[21010], inRotation:[false], rot:[0]
+08-01 12:08:09.910   644   644 I GRALLOC : 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=644
+08-01 12:08:09.910   644   644 I GRALLOC : 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0
+08-01 12:08:09.910   644   644 I GRALLOC : 	 iova_size=8486912,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=0,ionhnd = 1
+08-01 12:08:09.912   644   644 I GRALLOC : 	 shrFd=10,fmt=0x1,intFmt=0x1,btStrd=2816,size=2908160,pid=644
+08-01 12:08:09.912   644   644 I GRALLOC : 	 yuv=2,w=648,h=1029,Stride u=0 v=0,offset u=0 v=0
+08-01 12:08:09.912   644   644 I GRALLOC : 	 iova_size=2908160,conUsg=0x306,proUsg=0x366,	 strd=704,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1
+08-01 12:08:09.918  1147  2852 D WindowManager: finishDrawingWindow: Window{8b51aff u0 com.huawei.intelligent.Workspace} mDrawState=DRAW_PENDING
+08-01 12:08:09.929  1147 10270 V WindowManager: notifyAppResumed: wasStopped=true AppWindowToken{57efd19 token=Token{ef87460 ActivityRecord{b1b063 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1125}}}
+08-01 12:08:09.930  2570  2570 I HwLauncher: Launcher  onNewIntent() DragLayer visibility = 0, alpha = 1.0
+08-01 12:08:09.931  1147  2852 W InputMethodManagerService: Ignoring hideSoftInput of uid 10057: com.android.internal.view.IInputMethodClient$Stub$Proxy@94cf9e8
+08-01 12:08:09.932  2570  2570 W HwLauncher: Workspace  changeState() state no change.
+08-01 12:08:09.934  1147 10270 V WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-01 12:08:09.934  1147 10270 V WindowManager: Check opening app=AppWindowToken{57efd19 token=Token{ef87460 ActivityRecord{b1b063 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1125}}}: allDrawn=false startingDisplayed=false startingMoved=false isRelaunching()=false
+08-01 12:08:09.937  2570  2632 E HwLauncher: SettingsEx , no such field.
+08-01 12:08:09.937  2570  2632 W HwLauncher: Clock getDataFormat the getSystemString failed.
+08-01 12:08:09.937  1147  1164 D HwQoEUtils: mForegroundAppPackageName: com.huawei.android.launcher ,score: 0
+08-01 12:08:09.938  1147  1164 D HwQoEUtils: onForegroundAppWifiSleepChange: config:false, sleeptime:-1,type: 255, appname:com.huawei.android.launcher
+08-01 12:08:09.938  1147  1164 D HwQoEUtils: APP type: 255 appName= com.huawei.android.launcher
+08-01 12:08:09.938  1147  1164 D HwQoEUtils: no game, APP_TYPE_GAME, appName =com.huawei.android.launcher
+08-01 12:08:09.940  1147  1164 D HwGameAssistantController: pid=2570, uid=10057, foreground=true
+08-01 12:08:09.942  2683  5702 I [HwRecSys]CandidateSetHelper: getHwCandisetByPkgAndActivity -> pkg:com.huawei.android.launcher
+08-01 12:08:09.942  1147  1310 W AwareLog: SchedLevelBoost: onFgActivitiesChanged config not set!
+08-01 12:08:09.944 18707 18707 D DashboardSummary: onWindowFocusChanged
+08-01 12:08:09.944 18707 18707 D DashboardSummary: Stopped listening for condition changes
+08-01 12:08:09.948  1147  1657 W WindowManager: EGLdebug Created surface WindowStateAnimator{e022cc1 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+08-01 12:08:09.949  2683  5702 E [HwRecSys]CandidateSetHelper: getHwCandidateByPkgAndActivity -> this pkg HwCandidates is null!
+08-01 12:08:09.949  2683  5702 I [HwRecSys]DirectServiceController: this pkg and activity is not contain in Candidate db!
+08-01 12:08:09.949  1147  1657 V HwPhoneWindowManager: updateSystemUiColorLw window=Window{1372794 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher},EmuiStyle=-1,StatusBarColor=0xfffcfcfc,NavigationBarColor=0x0, mLastIsEmuiLightStyle=-1, mForceNotchStatusBar=false
+08-01 12:08:09.949  1147  1164 D HwPhoneWindowManager: Transact:setSystemUIColor to status bar service
+08-01 12:08:09.949 27577 27758 I CommandQueue: updateBarBgColor
+08-01 12:08:09.949 27577 27758 D CommandQueue: CommandQueue, setBarBackgroundColor
+08-01 12:08:09.949  1147 10270 I HwNetworkPolicy: onTransact, code = 203
+08-01 12:08:09.950  1455  1722 I HwNetworkPolicyManager: getHwUidPolicy uid = 10057 policy = 0
+08-01 12:08:09.950 27577 27577 D TintManager: statusBarIconTint=#99000000,navigationBarIconTint=#00000000
+08-01 12:08:09.953  1147  1657 V WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-01 12:08:09.953  1147  1657 V WindowManager: Check opening app=AppWindowToken{57efd19 token=Token{ef87460 ActivityRecord{b1b063 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1125}}}: allDrawn=false startingDisplayed=false startingMoved=false isRelaunching()=false
+08-01 12:08:09.954 18678 18678 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@f640; boundsInParent: Rect(0, 0 - 1080, 0); boundsInScreen: Rect(0, 216 - 1080, 216); packageName: com.android.settings; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/content_header_container; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.957 27577 27577 D StatusBarIconController: setIconVisibility icon is null or visibility not change visibility=false
+08-01 12:08:09.960   644   644 I GRALLOC : 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=644
+08-01 12:08:09.960   644   644 I GRALLOC : 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0
+08-01 12:08:09.960   644   644 I GRALLOC : 	 iova_size=8486912,conUsg=0x900,proUsg=0x900,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=0,ionhnd = 1
+08-01 12:08:09.961 18678 18694 W QueryController: AccessibilityNodeInfo returned a null child (0 of 1)
+08-01 12:08:09.961 18678 18694 W QueryController: parent = android.view.accessibility.AccessibilityNodeInfo@9c28; boundsInParent: Rect(0, 0 - 1080, 24); boundsInScreen: Rect(0, 504 - 1080, 528); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/category; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.962  2570  2570 W InputMethodManager: startInputReason = 1
+08-01 12:08:09.963   644   644 I GRALLOC : 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=644
+08-01 12:08:09.963   644   644 I GRALLOC : 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0
+08-01 12:08:09.963   644   644 I GRALLOC : 	 iova_size=8486912,conUsg=0x900,proUsg=0x900,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=0,ionhnd = 1
+08-01 12:08:09.964 18678 18694 W QueryController: AccessibilityNodeInfo returned a null child (0 of 3)
+08-01 12:08:09.964 18678 18694 W QueryController: parent = android.view.accessibility.AccessibilityNodeInfo@9fe9; boundsInParent: Rect(0, 0 - 1080, 168); boundsInScreen: Rect(0, 528 - 1080, 696); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_tile; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.965 18678 18694 W QueryController: AccessibilityNodeInfo returned a null child (1 of 3)
+08-01 12:08:09.966 18678 18694 W QueryController: AccessibilityNodeInfo returned a null child (2 of 3)
+08-01 12:08:09.966 18678 18694 W QueryController: AccessibilityNodeInfo returned a null child (0 of 3)
+08-01 12:08:09.967 18678 18694 W QueryController: parent = android.view.accessibility.AccessibilityNodeInfo@a3aa; boundsInParent: Rect(0, 0 - 1080, 168); boundsInScreen: Rect(0, 696 - 1080, 864); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_tile; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.967   644   644 I GRALLOC : 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=644
+08-01 12:08:09.967   644   644 I GRALLOC : 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0
+08-01 12:08:09.967   644   644 I GRALLOC : 	 iova_size=8486912,conUsg=0x900,proUsg=0x900,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=0,ionhnd = 1
+08-01 12:08:09.967 18678 18694 W QueryController: AccessibilityNodeInfo returned a null child (1 of 3)
+08-01 12:08:09.968 18678 18678 I AccessibilityNodeInfoDumper: Null child 0/1, parent: android.view.accessibility.AccessibilityNodeInfo@9c28; boundsInParent: Rect(0, 0 - 1080, 24); boundsInScreen: Rect(0, 504 - 1080, 528); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/category; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.968 18678 18694 W QueryController: AccessibilityNodeInfo returned a null child (2 of 3)
+08-01 12:08:09.968  2570  3027 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+08-01 12:08:09.969 18678 18694 W QueryController: AccessibilityNodeInfo returned a null child (0 of 3)
+08-01 12:08:09.969 18678 18694 W QueryController: parent = android.view.accessibility.AccessibilityNodeInfo@a76b; boundsInParent: Rect(0, 0 - 1080, 168); boundsInScreen: Rect(0, 864 - 1080, 1032); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_tile; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.969 18678 18678 I AccessibilityNodeInfoDumper: Null child 0/3, parent: android.view.accessibility.AccessibilityNodeInfo@9fe9; boundsInParent: Rect(0, 0 - 1080, 168); boundsInScreen: Rect(0, 528 - 1080, 696); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_tile; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.970 18678 18694 W QueryController: AccessibilityNodeInfo returned a null child (1 of 3)
+08-01 12:08:09.970 26480 26480 I wangchen: SysInfo.getSysParam: orientation=1||config d=3.0,w=1080,h=1788||metrics d=3.0,w=1080,h=1788||sdk=26,bar_h=72
+08-01 12:08:09.970 18678 18678 I AccessibilityNodeInfoDumper: Null child 1/3, parent: android.view.accessibility.AccessibilityNodeInfo@9fe9; boundsInParent: Rect(0, 0 - 1080, 168); boundsInScreen: Rect(0, 528 - 1080, 696); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_tile; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.971 18678 18694 W QueryController: AccessibilityNodeInfo returned a null child (2 of 3)
+08-01 12:08:09.971 26480 26480 I KeymapLoader: w=1080 h=1788 ori=true appScale=3.3 s1=3.0
+08-01 12:08:09.971 18678 18694 W QueryController: AccessibilityNodeInfo returned a null child (0 of 3)
+08-01 12:08:09.971 18678 18678 I AccessibilityNodeInfoDumper: Null child 2/3, parent: android.view.accessibility.AccessibilityNodeInfo@9fe9; boundsInParent: Rect(0, 0 - 1080, 168); boundsInScreen: Rect(0, 528 - 1080, 696); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_tile; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.971 18678 18694 W QueryController: parent = android.view.accessibility.AccessibilityNodeInfo@b2ae; boundsInParent: Rect(0, 0 - 1080, 168); boundsInScreen: Rect(0, 1368 - 1080, 1536); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_tile; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.972 18678 18678 I AccessibilityNodeInfoDumper: Null child 0/3, parent: android.view.accessibility.AccessibilityNodeInfo@9fe9; boundsInParent: Rect(0, 0 - 1080, 168); boundsInScreen: Rect(0, 528 - 1080, 696); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_tile; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.972 18678 18694 W QueryController: AccessibilityNodeInfo returned a null child (1 of 3)
+08-01 12:08:09.973 18678 18694 W QueryController: AccessibilityNodeInfo returned a null child (2 of 3)
+08-01 12:08:09.973 18678 18678 I AccessibilityNodeInfoDumper: Null child 1/3, parent: android.view.accessibility.AccessibilityNodeInfo@9fe9; boundsInParent: Rect(0, 0 - 1080, 168); boundsInScreen: Rect(0, 528 - 1080, 696); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_tile; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.974 18678 18694 W QueryController: AccessibilityNodeInfo returned a null child (0 of 3)
+08-01 12:08:09.974 18678 18694 W QueryController: parent = android.view.accessibility.AccessibilityNodeInfo@b66f; boundsInParent: Rect(0, 0 - 1080, 168); boundsInScreen: Rect(0, 1536 - 1080, 1704); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_tile; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.975 18678 18694 W QueryController: AccessibilityNodeInfo returned a null child (1 of 3)
+08-01 12:08:09.975 18678 18678 I AccessibilityNodeInfoDumper: Null child 2/3, parent: android.view.accessibility.AccessibilityNodeInfo@9fe9; boundsInParent: Rect(0, 0 - 1080, 168); boundsInScreen: Rect(0, 528 - 1080, 696); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_tile; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.976 18678 18678 I AccessibilityNodeInfoDumper: Null child 0/3, parent: android.view.accessibility.AccessibilityNodeInfo@a3aa; boundsInParent: Rect(0, 0 - 1080, 168); boundsInScreen: Rect(0, 696 - 1080, 864); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_tile; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.978 18678 18694 W QueryController: AccessibilityNodeInfo returned a null child (2 of 3)
+08-01 12:08:09.978 18678 18678 I AccessibilityNodeInfoDumper: Null child 1/3, parent: android.view.accessibility.AccessibilityNodeInfo@a3aa; boundsInParent: Rect(0, 0 - 1080, 168); boundsInScreen: Rect(0, 696 - 1080, 864); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_tile; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.979 18678 18678 I AccessibilityNodeInfoDumper: Null child 2/3, parent: android.view.accessibility.AccessibilityNodeInfo@a3aa; boundsInParent: Rect(0, 0 - 1080, 168); boundsInScreen: Rect(0, 696 - 1080, 864); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_tile; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.979 18678 18694 W QueryController: parent = android.view.accessibility.AccessibilityNodeInfo@ba30; boundsInParent: Rect(0, 0 - 1080, 168); boundsInScreen: Rect(0, 1704 - 1080, 1788); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_tile; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.980 18678 18694 W QueryController: AccessibilityNodeInfo returned a null child (1 of 3)
+08-01 12:08:09.980 18678 18678 I AccessibilityNodeInfoDumper: Null child 0/3, parent: android.view.accessibility.AccessibilityNodeInfo@a3aa; boundsInParent: Rect(0, 0 - 1080, 168); boundsInScreen: Rect(0, 696 - 1080, 864); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_tile; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.980   644   644 I GRALLOC : 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=644
+08-01 12:08:09.980   644   644 I GRALLOC : 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0
+08-01 12:08:09.980   644   644 I GRALLOC : 	 iova_size=8486912,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=0,ionhnd = 1
+08-01 12:08:09.981 18678 18678 I AccessibilityNodeInfoDumper: Null child 1/3, parent: android.view.accessibility.AccessibilityNodeInfo@a3aa; boundsInParent: Rect(0, 0 - 1080, 168); boundsInScreen: Rect(0, 696 - 1080, 864); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_tile; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.981 18678 18694 W QueryController: AccessibilityNodeInfo returned a null child (2 of 3)
+08-01 12:08:09.981 18678 18678 I AccessibilityNodeInfoDumper: Null child 2/3, parent: android.view.accessibility.AccessibilityNodeInfo@a3aa; boundsInParent: Rect(0, 0 - 1080, 168); boundsInScreen: Rect(0, 696 - 1080, 864); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_tile; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.983 18678 18678 I AccessibilityNodeInfoDumper: Null child 5/11, parent: android.view.accessibility.AccessibilityNodeInfo@7e20; boundsInParent: Rect(0, 0 - 1080, 1572); boundsInScreen: Rect(0, 216 - 1080, 1788); packageName: com.android.settings; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_container; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: true; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SCROLL_FORWARD - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.984 18678 18678 I AccessibilityNodeInfoDumper: Null child 6/11, parent: android.view.accessibility.AccessibilityNodeInfo@7e20; boundsInParent: Rect(0, 0 - 1080, 1572); boundsInScreen: Rect(0, 216 - 1080, 1788); packageName: com.android.settings; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_container; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: true; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SCROLL_FORWARD - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.985 18678 18678 I AccessibilityNodeInfoDumper: Null child 7/11, parent: android.view.accessibility.AccessibilityNodeInfo@7e20; boundsInParent: Rect(0, 0 - 1080, 1572); boundsInScreen: Rect(0, 216 - 1080, 1788); packageName: com.android.settings; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_container; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: true; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SCROLL_FORWARD - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.986 18678 18678 I AccessibilityNodeInfoDumper: Null child 8/11, parent: android.view.accessibility.AccessibilityNodeInfo@7e20; boundsInParent: Rect(0, 0 - 1080, 1572); boundsInScreen: Rect(0, 216 - 1080, 1788); packageName: com.android.settings; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_container; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: true; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SCROLL_FORWARD - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.987 18678 18678 I AccessibilityNodeInfoDumper: Null child 9/11, parent: android.view.accessibility.AccessibilityNodeInfo@7e20; boundsInParent: Rect(0, 0 - 1080, 1572); boundsInScreen: Rect(0, 216 - 1080, 1788); packageName: com.android.settings; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_container; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: true; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SCROLL_FORWARD - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.988 18678 18678 I AccessibilityNodeInfoDumper: Null child 10/11, parent: android.view.accessibility.AccessibilityNodeInfo@7e20; boundsInParent: Rect(0, 0 - 1080, 1572); boundsInScreen: Rect(0, 216 - 1080, 1788); packageName: com.android.settings; className: android.support.v7.widget.RecyclerView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/dashboard_container; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: true; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SCROLL_FORWARD - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.989 18678 18678 I AccessibilityNodeInfoDumper: Null child 1/2, parent: android.view.accessibility.AccessibilityNodeInfo@ccf5; boundsInParent: Rect(0, 0 - 1080, 1788); boundsInScreen: Rect(0, 0 - 1080, 1788); packageName: com.android.settings; className: android.view.ViewGroup; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: android:id/decor_content_parent; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.989  1147  1883 D WindowManager: finishDrawingWindow: Window{1372794 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher} mDrawState=DRAW_PENDING
+08-01 12:08:09.990 18678 18678 I AccessibilityNodeInfoDumper: Null child 1/3, parent: android.view.accessibility.AccessibilityNodeInfo@8000769e; boundsInParent: Rect(0, 0 - 1080, 1920); boundsInScreen: Rect(0, 0 - 1080, 1920); packageName: com.android.settings; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.990 18678 18678 I AccessibilityNodeInfoDumper: Null child 2/3, parent: android.view.accessibility.AccessibilityNodeInfo@8000769e; boundsInParent: Rect(0, 0 - 1080, 1920); boundsInScreen: Rect(0, 0 - 1080, 1920); packageName: com.android.settings; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:09.991 18678 18678 W AccessibilityNodeInfoDumper: Fetch time: 40ms
+08-01 12:08:09.993  1147  1288 V WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-01 12:08:09.993  1147  1288 V WindowManager: Check opening app=AppWindowToken{57efd19 token=Token{ef87460 ActivityRecord{b1b063 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1125}}}: allDrawn=true startingDisplayed=false startingMoved=false isRelaunching()=false
+08-01 12:08:09.994 27577 27577 D ImageWallpaper: onVisibilityChanged: mVisible, visible=false, true
+08-01 12:08:09.994 27577 27577 D ImageWallpaper: Visibility changed to visible=true
+08-01 12:08:09.994 27577 27577 D ImageWallpaper: Suppressed drawFrame since redraw is not needed and offsets have not changed.sf=Rect(0, 0 - 2160, 1920)
+08-01 12:08:09.995  1147  1288 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.5, mControlPoint1y = 0.2, mControlPoint2x = 0.6, mControlPoint2y = 1.0
+08-01 12:08:09.995  1147  1288 D CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.5, mControlPoint1y = 0.2, mControlPoint2x = 0.6, mControlPoint2y = 1.0
+08-01 12:08:10.007 27577 27577 D BarTransitions.HwNavigationBarView: MODE_OPAQUE -> MODE_TRANSLUCENT animate=false
+08-01 12:08:10.007 27577 27577 D BarTransitions.HwNavigationBarView: applyModeBackground oldMode=MODE_OPAQUE newMode=MODE_TRANSLUCENT animate=false
+08-01 12:08:10.011   673   833 E BufferQueueProducer: [com.android.settings/com.android.settings.HWSettings#0] disconnect: not connected (req=1)
+08-01 12:08:10.011 18707 18749 W libEGL  : EGLNativeWindowType 0x7ac93ea010 disconnect failed
+08-01 12:08:10.014  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.014  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.015  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.015  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.015  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.015  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.015  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.015  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.015  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.015  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.015  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.016  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.016  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.016  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.016  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.016  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.016  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.016  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.016  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.017  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.017  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.017  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.018  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.018  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.018  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.018  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.018  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.025 18678 18678 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@21eb1; boundsInParent: Rect(0, 0 - 93, 93); boundsInScreen: Rect(495, 0 - 584, 76); packageName: com.huawei.android.launcher; className: android.widget.ImageView; text: null; error: null; maxTextLength: -1; contentDescription: 设置默认主屏幕; viewIdResName: com.huawei.android.launcher:id/default_screen_home_icon; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.025 18678 18678 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@22272; boundsInParent: Rect(0, 0 - 93, 93); boundsInScreen: Rect(493, 0 - 586, 78); packageName: com.huawei.android.launcher; className: android.widget.ImageView; text: null; error: null; maxTextLength: -1; contentDescription: 设置默认主屏幕; viewIdResName: com.huawei.android.launcher:id/default_screen_home_icon_bg; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.027  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c000000
+08-01 12:08:10.027  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c000303
+08-01 12:08:10.027  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c000004
+08-01 12:08:10.028  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c000104
+08-01 12:08:10.028  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c000204
+08-01 12:08:10.028  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c000304
+08-01 12:08:10.032 27577 27758 D HwRecentsLockUtils: Search
+08-01 12:08:10.032  1857  2181 E HsmCoreServiceImpl: onTransact in code is: 103
+08-01 12:08:10.032  1857  2181 I MediaProcessHandler: playingUids:
+08-01 12:08:10.033  1147  1883 D ActivityManager: Skipping, home or recents stack task: TaskRecord{d79c33 #1125 A=com.huawei.android.launcher U=0 StackId=0 sz=1}
+08-01 12:08:10.034  1147  1883 D ActivityManager: Skipping intent:act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10800000 cmp=io.appium.settings/.Settings
+08-01 12:08:10.034  1147  1883 D ActivityManager: Skipping intent:flg=0x10800000 cmp=com.android.systemui/.usb.HwUsbDebuggingActivity
+08-01 12:08:10.034  1147  1883 D ActivityManager: Skipping intent:flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[48,1295][1032,2531]
+08-01 12:08:10.034  1147  1883 D ActivityManager: Skipping intent:act=android.settings.ACCESSIBILITY_SETTINGS flg=0x10808000 cmp=com.android.settings/.Settings$AccessibilitySettingsActivity
+08-01 12:08:10.034  1147  1883 D ActivityManager: Skipping intent:flg=0x10800000 cmp=com.github.uiautomator/.IdentifyActivity
+08-01 12:08:10.034  1147  1883 D ActivityManager: Skipping intent:act=android.deviceinfo.chooser.action.LAUNCH flg=0x10800000 hwFlg=0x100 pkg=com.android.settings cmp=com.android.settings/.deviceinfo.UsbConnModeChooserActivity
+08-01 12:08:10.034  1147  1883 D ActivityManager: Skipping intent:act=android.intent.action.VIEW dat=content://com.android.browser.fileProvider/external_files/Downloads/Solopi.apk typ=application/vnd.android.package-archive flg=0x18800000 cmp=com.android.packageinstaller/.InstallStart
+08-01 12:08:10.034  1147  1883 D ActivityManager: Skipping intent:act=android.intent.action.VIEW dat=https://github.com/... flg=0x13800000 cmp=com.android.browser/.BrowserActivity
+08-01 12:08:10.034  1147  1883 D ActivityManager: Skipping intent:act=android.intent.action.VIEW dat=https://github.com/... flg=0x10800000 cmp=com.huawei.android.internal.app/.HwResolverActivity
+08-01 12:08:10.034  1147  1883 D ActivityManager: Skipping intent:act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10800300 cmp=com.android.settings/.FallbackHome
+08-01 12:08:10.034  1147  1883 D ActivityManager: Skipping intent:act=com.huawei.action.VOICE_ASSISTANT flg=0x10800000 cmp=com.huawei.vassistant/.ui.main.VAssistantActivity
+08-01 12:08:10.036 18678 18678 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@81c3; boundsInParent: Rect(0, 0 - 1080, 1575); boundsInScreen: Rect(1080, 0 - 1080, 1527); packageName: com.huawei.android.launcher; className: android.view.ViewGroup; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.huawei.android.launcher:id/workspace_screen; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.036 18678 18678 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8584; boundsInParent: Rect(0, 0 - 1080, 1575); boundsInScreen: Rect(2160, 0 - 1080, 1527); packageName: com.huawei.android.launcher; className: android.view.ViewGroup; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.huawei.android.launcher:id/workspace_screen; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.036 18678 18678 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8945; boundsInParent: Rect(0, 0 - 1080, 1575); boundsInScreen: Rect(3240, 0 - 1080, 1527); packageName: com.huawei.android.launcher; className: android.view.ViewGroup; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.huawei.android.launcher:id/workspace_screen; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.038  2570  2570 W ResourceType: No known package when getting name for resource number 0x9b000000
+08-01 12:08:10.038  2570  2570 W ResourceType: No known package when getting name for resource number 0x9b010100
+08-01 12:08:10.038  2570  2570 W ResourceType: No known package when getting name for resource number 0x9b020200
+08-01 12:08:10.039  2570  2570 W ResourceType: No known package when getting name for resource number 0x9b030300
+08-01 12:08:10.043 18678 18678 W AccessibilityNodeInfoDumper: Fetch time: 22ms
+08-01 12:08:10.064  1147  1147 I TrafficMonitor: update:rxPkts:2,txPkts:1,rxBytes:79,txBytes:40
+08-01 12:08:10.064  1147  1147 I TrafficMonitor: start expired. level:-1
+08-01 12:08:10.064  1147  1147 I TrafficMonitor: gettimer:interval=2000
+08-01 12:08:10.096  2570  2632 W HwResourcesImpl: icon in pkg com.netease.cloudmusic is too large.sDefaultSizeWithoutEdge = 188bmp.getWidth() = 648
+08-01 12:08:10.118 18707 18707 D DashboardSummary: onStop called.
+08-01 12:08:10.134  1147  1703 V WindowManager: notifyAppStopped: AppWindowToken{3f4bcca token=Token{f4d9035 ActivityRecord{5bf326c u0 com.android.settings/.HWSettings t1348}}}
+08-01 12:08:10.136  1147  1164 D HwGameAssistantController: pid=18707, uid=1000, foreground=false
+08-01 12:08:10.143  1147  1288 V WindowManager: Exit animation finished in Window{a4512df u0 com.android.settings/com.android.settings.HWSettings EXITING}: remove=false
+08-01 12:08:10.143  1147  1288 E WindowManager: win=Window{a4512df u0 com.android.settings/com.android.settings.HWSettings EXITING} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false
+08-01 12:08:10.144  1147  1288 I WindowManager: Destroying surface Surface(name=com.android.settings/com.android.settings.HWSettings) called by com.android.server.wm.WindowStateAnimator.destroySurface:2072 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:884 com.android.server.wm.HwWindowStateAnimator.destroySurfaceLocked:1006 com.android.server.wm.WindowState.destroyOrSaveSurfaceUnchecked:2998 com.android.server.wm.WindowState.destroySurface:2951 com.android.server.wm.AppWindowToken.destroySurfaces:664 com.android.server.wm.AppWindowToken.destroySurfaces:648 com.android.server.wm.WindowState.onExitAnimationDone:4424
+08-01 12:08:10.148  1147  1310 W AwareLog: SchedLevelBoost: onFgActivitiesChanged config not set!
+08-01 12:08:10.475  2875  3009 W trace_@_3_2_@: @_3_2_3_@1564632490474;@_3_2_4_@1，0;@_3_2_5_@0，113
+08-01 12:08:10.513  2570  3027 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+08-01 12:08:10.514  2570  3027 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+08-01 12:08:10.517   644   644 I GRALLOC : 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=644
+08-01 12:08:10.517   644   644 I GRALLOC : 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0
+08-01 12:08:10.517   644   644 I GRALLOC : 	 iova_size=8486912,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=0,ionhnd = 1
+08-01 12:08:10.541  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.541  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.541  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.541  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.541  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.542  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.542  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.542  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.542  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.542  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.542  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.542  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.542  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.542  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.543  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.543  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.543  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.543  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.543  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.543  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.544  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.544  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.544  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.544  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.544  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.544  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.544  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.549  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c000000
+08-01 12:08:10.549  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c000303
+08-01 12:08:10.549  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c000004
+08-01 12:08:10.549  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c000104
+08-01 12:08:10.549  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c000204
+08-01 12:08:10.549  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c000304
+08-01 12:08:10.552 18678 18678 I QueryController: Matched selector: UiSelector[CLASS=android.widget.TextView, INSTANCE=8, COUNT=8] <<==>> [android.view.accessibility.AccessibilityNodeInfo@1cc1b; boundsInParent: Rect(524162, 0 - 524426, 285); boundsInScreen: Rect(804, 939 - 1068, 1224); packageName: com.huawei.android.launcher; className: android.widget.TextView; text: 设置; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]]
+08-01 12:08:10.554  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.554  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.554  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.554  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.555  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.555  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.555  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.555  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.555  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.555  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.555  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.555  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.555  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.556  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.556  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.556  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.556  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.556  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.556  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.556  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.557  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.557  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.557  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.557  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.557  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.557  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.557  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.562  2570  2570 W ResourceType: No known package when getting name for resource number 0x9b000000
+08-01 12:08:10.562  2570  2570 W ResourceType: No known package when getting name for resource number 0x9b010100
+08-01 12:08:10.563  2570  2570 W ResourceType: No known package when getting name for resource number 0x9b020200
+08-01 12:08:10.563  2570  2570 W ResourceType: No known package when getting name for resource number 0x9b030300
+08-01 12:08:10.565  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.565  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.565  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.566  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.566  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.566  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.566  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.566  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.566  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.566  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.566  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.566  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.566  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.567  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.567  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.567  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.567  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.567  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.567  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.567  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.568  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.568  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.568  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.568  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.568  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.569  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.569  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.573  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.574  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.574  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.574  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.574  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.574  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.574  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.574  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.574  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.575  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.575  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.575  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.575  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.575  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.575  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.575  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.575  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.575  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.576  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.576  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.576  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.576  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.576  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.576  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.576  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.577  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.577  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.581  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.581  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.581  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.581  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.581  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.581  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.582  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.582  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.582  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.582  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.582  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.582  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.582  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.582  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.583  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.583  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.583  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.583  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.583  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.583  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.584  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.584  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.584  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.584  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.584  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.584  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.584  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.587 18678 18678 I QueryController: Matched selector: UiSelector[CLASS=android.widget.TextView, INSTANCE=8, COUNT=8] <<==>> [android.view.accessibility.AccessibilityNodeInfo@1cc1b; boundsInParent: Rect(524162, 0 - 524426, 285); boundsInScreen: Rect(804, 939 - 1068, 1224); packageName: com.huawei.android.launcher; className: android.widget.TextView; text: 设置; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]]
+08-01 12:08:10.588 18678 18678 D InteractionController: clickAndSync(936, 1081)
+08-01 12:08:10.589  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.589  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.589  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.589  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.589  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.590  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.590  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.590  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.590  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.590  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.590  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.590  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.590  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.591  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.591  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.591  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.591  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.591  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.591  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.591  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.592  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.592  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.593  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.593  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.593  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.593  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.593  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.617  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.617  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.617  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.617  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.617  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.618  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.618  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.618  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.618  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.618  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.618  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.618  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.618  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.619  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.619  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.619  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.619  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.619   644   644 I GRALLOC : 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=644
+08-01 12:08:10.619   644   644 I GRALLOC : 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0
+08-01 12:08:10.619   644   644 I GRALLOC : 	 iova_size=8486912,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=0,ionhnd = 1
+08-01 12:08:10.619  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.619  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.619  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.620  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.620  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.621  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.621  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.621  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.622  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.622  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.626  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.627  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.627  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.627  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.627  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.627  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.627  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.627  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.627  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.628  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.628  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.628  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.628  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.628  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.628  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.628  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.628  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.628  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.629  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.629  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.629  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.629  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.629  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.629  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.630  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.630  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.630  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.634  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.634  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.635  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.635  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.635  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.635  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.635  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.635  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.635  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.635  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.635  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.636  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.636  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.636  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.636  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.636  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.636  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.636  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.636  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.636  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.637  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.637  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.637  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.637  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.637  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.638  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.638  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.642  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.642  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.642  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.642  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.642  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.642  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.643  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.643  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.643  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.643  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.643  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.643  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.643  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.643  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.643  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.644  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.644  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.644  1147  1345 D HwWifiStatStore: handleMessage : 200
+08-01 12:08:10.644  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.644  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.644  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.645  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.645  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.645  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.645  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.645  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.645  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.645  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.649  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.650  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.650  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.650  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.650  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.650  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.650  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.650  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.650  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.651  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.651  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.651  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.651  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.651  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.651  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.651  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.651  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.651  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.652  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.652  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.652  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.652  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.652  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.652  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.653  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.653  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.653  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.657  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.657  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.657  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.657  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.657  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.657  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.658  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.658  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.658  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.658  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.658  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.658  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.658  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.658  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.658  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.659  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.659  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.659  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.659  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.659  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.659  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.660  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.660  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.660  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.660  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.660  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.660  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.664  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.664  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.665  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.665  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.665  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.665  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.665  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.665  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.665  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.665  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.665  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.666  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.666  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.666  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.666  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.666  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.666  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.666  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.666  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.666  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.667  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.667  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.667  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.667  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.667  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.667  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.668  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.672  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.672  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.672  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.672  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.672  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.672  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.672  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.673  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.673  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.673  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.673  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.673  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.673  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.673  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.673  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.673  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.674  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.674  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.674  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.674  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.674  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.675  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.675  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.675  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.675  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.675  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.675  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.679  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.679  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.680  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.680  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.680  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.680  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.680  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.680  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.680  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.680  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.680  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.681  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.681  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.681  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.681  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.681  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.681  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.681  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.681  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.681  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.682  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.682  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.682  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.682  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.682  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.682  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.683  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.686  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.687  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.687  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.687  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.687  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.687  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.687  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.687  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.687  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.688  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.688  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.688  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.688  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.688  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.688  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.688  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.688  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.688  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.689  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.689  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.689  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.689  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.689  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.689  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.690  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.690  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.690  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.694  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.694  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.694  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.694  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.694  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.694  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.695  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.695  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.695  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.695  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.695  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.695  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.695  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.695  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.695  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.695  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.696  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.696  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.696  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.696  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.696  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.697  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.697  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.697  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.697  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.697  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.697  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.699  2570  2570 V AudioManager: playSoundEffect   effectType: 0
+08-01 12:08:10.702  1147  1883 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.HWSettings bnds=[804,939][1068,1224]} from uid 10057
+08-01 12:08:10.704  1886  2177 I ash     : front pkg : com.android.settings launcher: false
+08-01 12:08:10.704  1886  2177 I ash     : above launcher front pkgs: [com.android.settings]
+08-01 12:08:10.704  1147  1883 I ActivityManager: ActivityRecord info: ActivityInfo{79426a6 com.android.settings.HWSettings}
+08-01 12:08:10.709  1886  9326 I PGServer: android calls fast hibernateApps
+08-01 12:08:10.709  1147  1883 D ActivityManager: allPausedActivitiesComplete: r=ActivityRecord{b1b063 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1125} state=PAUSING
+08-01 12:08:10.709  1886  9326 I AppFastHibernation: fast hibernate duration: 1500 reason: start activity
+08-01 12:08:10.709  1886  9326 I AppFastHibernation: fast hibernate now, drop this request
+08-01 12:08:10.718  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.718  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.718  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.718  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.719  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.719  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.719  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.719  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.719  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.719  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.719  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.719  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.720  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.720  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.720  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.720  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.720  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.720  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.720  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.720  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.721  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.721  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.721  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.721  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.722  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.722  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.722  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.723  2570 19623 D MotionDetectionManager: stopMotionAppsReco motionApps: 403
+08-01 12:08:10.723  2570 19623 D MotionDetectionManager: stopMotionAppsReco not recognition motionApps 403
+08-01 12:08:10.723  2570 19623 W HwLauncher: Launcher.MotionManager stopMotionAppsReco service flg 403 is unavailable
+08-01 12:08:10.725  1147  1657 V WindowManager: No longer Stopped: AppWindowToken{3f4bcca token=Token{f4d9035 ActivityRecord{5bf326c u0 com.android.settings/.HWSettings t1348}}}
+08-01 12:08:10.725  1147  1657 V WindowManager: findFocusedWindow: AppWindowToken{57efd19 token=Token{ef87460 ActivityRecord{b1b063 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1125}}} below Reached focused app=AppWindowToken{3f4bcca token=Token{f4d9035 ActivityRecord{5bf326c u0 com.android.settings/.HWSettings t1348}}}
+08-01 12:08:10.728  1886  2035 D ScenarioService: front pkg : com.android.settings launcher: false
+08-01 12:08:10.728  1886  2035 D ScenarioService: new above launcher front pkgs: [com.android.settings]
+08-01 12:08:10.729  1886  2035 I AppsUsage: scnOff:false FgAPP:com.android.settings BgAPP:com.huawei.android.launcher
+08-01 12:08:10.731  2683  5702 D [HwRecSys]HwRecSysService: onEvent actionID: 10000 msg:com.android.settings
+08-01 12:08:10.731  2683  5702 I [HwRecSys]HwRecSysService:  cur pkg: com.android.settings
+08-01 12:08:10.732  1886  2342 I PGServer: report state:10010 event type:2 pid:0 uid:0 pkg:com.huawei.android.launcher to pid: 1147
+08-01 12:08:10.732  1886  2342 I PGServer: report state:10010 event type:2 pid:0 uid:0 pkg:com.huawei.android.launcher to pid: 1886
+08-01 12:08:10.732  1886  2342 I SceneReceiver: state type: 10010 eventType:2 pid:0 uid:0 pkg:com.huawei.android.launcher
+08-01 12:08:10.732  1886  2342 I PGServer: report state:10000 event type:1 pid:0 uid:0 pkg:com.android.settings to pid: 1147
+08-01 12:08:10.732  1886  2342 I PGServer: report state:10000 event type:1 pid:0 uid:0 pkg:com.android.settings to pid: 1886
+08-01 12:08:10.732  1886  2342 I SceneReceiver: state type: 10000 eventType:1 pid:0 uid:0 pkg:com.android.settings
+08-01 12:08:10.732  1886  2552 D HwThermalStateManager: current foreapp pkg : com.android.settings
+08-01 12:08:10.732  1147  1394 D EmcomManagerService: forePackage name is com.android.settings
+08-01 12:08:10.732  1147  1394 D HicomPolicyManager: foreAppInfo = nullpkgName = com.android.settings uid= 1000
+08-01 12:08:10.732  1147  1394 E HicomPolicyManager: udp acc is not start yet!
+08-01 12:08:10.732  1147  1394 D HicomPolicyManager: speed control is not start
+08-01 12:08:10.732  1147  1394 E HicomPolicyManager: Network Evaluation is not start yet!
+08-01 12:08:10.732  1147  1394 E HicomPolicyManager: foreground app info is null
+08-01 12:08:10.733  2683  5702 E [HwRecSys]ServiceHelper: accessibility_service_name:com.huawei.recsys/com.huawei.recsys.service.PortraitDaService
+08-01 12:08:10.733  2683  5702 E [HwRecSys]ServiceHelper: multiScreenShotService:ComponentInfo{com.huawei.recsys/com.huawei.recsys.service.PortraitDaService}
+08-01 12:08:10.734  1147  1497 I [SPMN]  : insert SECURE -- name = enabled_accessibility_services, package = com.huawei.recsys, user = 0, value = com.huawei.recsys/com.huawei.recsys.service.PortraitDaService
+08-01 12:08:10.734  1886  9326 I PGServer: checkPkgType. calling pkg: android
+08-01 12:08:10.735  1147  1703 V WindowManager: findFocusedWindow: AppWindowToken{57efd19 token=Token{ef87460 ActivityRecord{b1b063 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1125}}} below Reached focused app=AppWindowToken{3f4bcca token=Token{f4d9035 ActivityRecord{5bf326c u0 com.android.settings/.HWSettings t1348}}}
+08-01 12:08:10.735  1147  1497 I [SPMN]  : insert SECURE -- name = accessibility_enabled, package = com.huawei.recsys, user = 0, value = 1
+08-01 12:08:10.736  1147  1703 D WindowManager: face_rotation: isIntelliServiceEnabled: ro swtich off
+08-01 12:08:10.736  1147  1703 I WindowManager: rotationForOrientationLw(orient=-1, last=0); user=0
+08-01 12:08:10.736  1147  1703 D WindowManager: face_rotation: isIntelliServiceEnabled: ro swtich off
+08-01 12:08:10.736  1147  1703 D HwPhoneWindowManager: face_rotation: not enabled,use sensor real
+08-01 12:08:10.736  1147  1703 D HwPhoneWindowManager: face_rotation:real sensor rotation = -1
+08-01 12:08:10.736  1147  1703 D HwPhoneWindowManager: face_rotation: rotation = 0
+08-01 12:08:10.736  1147  1703 I WindowManager: Selected orientation -1, got rotation 0 which has compatible metrics
+08-01 12:08:10.735  1886  9326 I PGServer: checkPkgType. calling pkg: android
+08-01 12:08:10.737  1886  3657 W libc    : Set property "sys.aps.gameProcessName" to ""
+08-01 12:08:10.740  1886  3657 W libc    : Set property "sys.aps.browserProcessName" to ""
+08-01 12:08:10.745  1147  1657 V WindowManager: notifyAppResumed: wasStopped=true AppWindowToken{3f4bcca token=Token{f4d9035 ActivityRecord{5bf326c u0 com.android.settings/.HWSettings t1348}}}
+08-01 12:08:10.749  1147  1657 V WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-01 12:08:10.749  1147  1657 V WindowManager: Check opening app=AppWindowToken{3f4bcca token=Token{f4d9035 ActivityRecord{5bf326c u0 com.android.settings/.HWSettings t1348}}}: allDrawn=false startingDisplayed=false startingMoved=false isRelaunching()=false
+08-01 12:08:10.751  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c000303
+08-01 12:08:10.759 18707 18707 D DashboardSummary: onStart called.
+08-01 12:08:10.760  1147  1164 D HwQoEUtils: mForegroundAppPackageName: com.android.settings ,score: 0
+08-01 12:08:10.761  1147  1164 D HwQoEUtils: onForegroundAppWifiSleepChange: config:false, sleeptime:-1,type: 255, appname:com.android.settings
+08-01 12:08:10.761  1147  1164 D HwQoEUtils: APP type: 255 appName= com.android.settings
+08-01 12:08:10.761  1147  1310 W AwareLog: SchedLevelBoost: onFgActivitiesChanged config not set!
+08-01 12:08:10.761  1147  1164 D HwQoEUtils: no game, APP_TYPE_GAME, appName =com.android.settings
+08-01 12:08:10.762  1147  1164 D HwGameAssistantController: pid=18707, uid=1000, foreground=true
+08-01 12:08:10.765 18707 19648 D HwidEnabler: Check the HwID-Tile content providers for dynamically updatable content.
+08-01 12:08:10.765 18707 18707 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1095 android.content.ContextWrapper.sendBroadcast:436 com.android.settings.HWSettings.onResume:161 android.app.Instrumentation.callActivityOnResume:1364 android.app.Activity.performResume:7479
+08-01 12:08:10.767  1147  1883 W ActivityManager: Sending non-protected broadcast com.huawei.android.intent.action.ENTER_SETTINGS from system 18707:com.android.settings/1000 pkg com.android.settings
+08-01 12:08:10.767 18707 18728 D Index   : Deleting data for locale 'zh_CN_#Hans' took 7 millis
+08-01 12:08:10.767  1147  1883 I HwNetworkPolicy: onTransact, code = 203
+08-01 12:08:10.768  1455  1722 I HwNetworkPolicyManager: getHwUidPolicy uid = 1000 policy = 0
+08-01 12:08:10.768  4032  4505 I APKAccountManager: [2019-08-01 12:08:10.767 I/HwID_APK_log[2.7.0.303]/APKAccountManager 4032:91 :91] get No Account from AccountManager
+08-01 12:08:10.769  4032  4505 I HwidForSetting: [2019-08-01 12:08:10.768 I/HwID_APK_log[2.7.0.303]/HwidForSetting 4032:91 :97] call not login
+08-01 12:08:10.771  4032  4505 I BaseUtil: [2019-08-01 12:08:10.770 I/HwID_APK_log[2.7.0.303]/BaseUtil 4032:91 :1662] versionCode 20700303
+08-01 12:08:10.773 18707 18728 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.774  4032  4145 I AppLogManager: PrintWoker poll timeout , shutdown
+08-01 12:08:10.775  4032  4505 I APKAccountManager: [2019-08-01 12:08:10.774 I/HwID_APK_log[2.7.0.303]/APKAccountManager 4032:91 :91] get No Account from AccountManager
+08-01 12:08:10.776  4032  4505 I HwidForSetting: [2019-08-01 12:08:10.775 I/HwID_APK_log[2.7.0.303]/HwidForSetting 4032:91 :97] call not login
+08-01 12:08:10.776  4032  4145 I AppLogManager: PrintWoker poll timeout , shutdown
+08-01 12:08:10.776 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.777 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.778  4032  4145 I AppLogManager: PrintWoker poll timeout , shutdown
+08-01 12:08:10.778 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.778 18707 18728 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.779  4032  4505 I BaseUtil: [2019-08-01 12:08:10.778 I/HwID_APK_log[2.7.0.303]/BaseUtil 4032:91 :1662] versionCode 20700303
+08-01 12:08:10.779 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.780 18707 18737 I chatty  : uid=1000(system) AsyncTask #4 identical 1 line
+08-01 12:08:10.780 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.780  4032  4145 I AppLogManager: PrintWoker poll timeout , shutdown
+08-01 12:08:10.781 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.782 18707 18737 I chatty  : uid=1000(system) AsyncTask #4 identical 1 line
+08-01 12:08:10.782 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.782  4032  4505 I APKAccountManager: [2019-08-01 12:08:10.782 I/HwID_APK_log[2.7.0.303]/APKAccountManager 4032:91 :91] get No Account from AccountManager
+08-01 12:08:10.783  4032  4505 I HwidForSetting: [2019-08-01 12:08:10.782 I/HwID_APK_log[2.7.0.303]/HwidForSetting 4032:91 :97] call not login
+08-01 12:08:10.784 18707 18728 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.785 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.786  4032  4505 I BaseUtil: [2019-08-01 12:08:10.785 I/HwID_APK_log[2.7.0.303]/BaseUtil 4032:91 :1662] versionCode 20700303
+08-01 12:08:10.786 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.787  4032  4145 I AppLogManager: PrintWoker poll timeout , shutdown
+08-01 12:08:10.787 18707 18728 D Settings: isAirSharingExist()-->pInfo = PackageInfo{da478ff com.huawei.android.airsharing}
+08-01 12:08:10.787 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.787 18707 18737 I TileUtils: isNeedSkipTile() packageName: com.android.settings, className: com.android.settings.Settings$BluetoothSettingsActivity
+08-01 12:08:10.788  4032  4505 I APKAccountManager: [2019-08-01 12:08:10.787 I/HwID_APK_log[2.7.0.303]/APKAccountManager 4032:91 :91] get No Account from AccountManager
+08-01 12:08:10.788 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.789 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.789  4032  4505 I HwidForSetting: [2019-08-01 12:08:10.788 I/HwID_APK_log[2.7.0.303]/HwidForSetting 4032:91 :97] call not login
+08-01 12:08:10.789 18707 18737 I TileUtils: isNeedSkipTile() packageName: com.android.settings, className: com.android.settings.Settings$EnterprisePrivacySettingsActivity
+08-01 12:08:10.790 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.790 18707 18737 I TileUtils: isNeedSkipTile() packageName: com.android.settings, className: com.android.settings.LocationDashboardAlias
+08-01 12:08:10.790 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.790 18707 18737 I TileUtils: isNeedSkipTile() packageName: com.android.settings, className: com.android.settings.BackupSettingsActivity
+08-01 12:08:10.790  4032  4145 I AppLogManager: PrintWoker poll timeout , shutdown
+08-01 12:08:10.790  4032  4505 I BaseUtil: [2019-08-01 12:08:10.790 I/HwID_APK_log[2.7.0.303]/BaseUtil 4032:91 :1662] versionCode 20700303
+08-01 12:08:10.792 18707 18737 I TileUtils: isNeedSkipTile() packageName: com.huawei.android.dsdscardmanager, className: com.huawei.android.dsdscardmanager.HWCardManagerActivity
+08-01 12:08:10.792  4032  4145 I AppLogManager: PrintWoker poll timeout , shutdown
+08-01 12:08:10.792 18707 18737 I TileUtils: isNeedSkipTile() packageName: com.huawei.android.dsdscardmanager, className: com.huawei.android.dsdscardmanager.HWCardManagerTabActivity
+08-01 12:08:10.794  1147  1497 W WindowManager: EGLdebug Created surface WindowStateAnimator{2a32b2c com.android.settings/com.android.settings.HWSettings}
+08-01 12:08:10.794 18707 18728 E TAG     : can't find packeage com.google.android.gms!android.content.pm.PackageManager$NameNotFoundException: com.google.android.gms
+08-01 12:08:10.794  1147  1497 V HwPhoneWindowManager: updateSystemUiColorLw window=Window{a4512df u0 com.android.settings/com.android.settings.HWSettings},EmuiStyle=1,StatusBarColor=0xfffcfcfc,NavigationBarColor=0xfffcfcfc, mLastIsEmuiLightStyle=1, mForceNotchStatusBar=false
+08-01 12:08:10.795  1147  1164 D HwPhoneWindowManager: Transact:setSystemUIColor to status bar service
+08-01 12:08:10.795 27577 27758 I CommandQueue: updateBarBgColor
+08-01 12:08:10.795 27577 27758 D CommandQueue: CommandQueue, setBarBackgroundColor
+08-01 12:08:10.796 27577 27577 D TintManager: statusBarIconTint=#99000000,navigationBarIconTint=#FFFCFCFC
+08-01 12:08:10.796 18707 18728 V SQLiteDatabase: triggerBuildingIndex(): invalid id, return.
+08-01 12:08:10.798 18707 18737 I TileUtils: isNeedSkipTile() packageName: com.huawei.hidisk, className: com.huawei.android.hicloud.ui.activity.NewHiSyncSettingActivity
+08-01 12:08:10.799 18707 18737 I TileUtils: isNeedSkipTile() packageName: com.huawei.android.hwouc, className: com.huawei.android.hwouc.ui.activities.MainEntranceActivity
+08-01 12:08:10.799 18707 18728 V SQLiteDatabase: triggerBuildingIndex(): invalid id, return.
+08-01 12:08:10.799 18707 18737 I TileUtils: isNeedSkipTile() packageName: com.huawei.android.hwouc, className: com.huawei.android.hwouc.ui.activities.MainEntranceActivity
+08-01 12:08:10.799  1147  1497 V WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-01 12:08:10.799 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.800 18707 18737 I TileUtils: isNeedSkipTile() packageName: com.huawei.hwid, className: com.huawei.hwid.ui.extend.setting.StartUpGuideLoginActivity
+08-01 12:08:10.800  1147  1497 V WindowManager: Check opening app=AppWindowToken{3f4bcca token=Token{f4d9035 ActivityRecord{5bf326c u0 com.android.settings/.HWSettings t1348}}}: allDrawn=false startingDisplayed=false startingMoved=false isRelaunching()=false
+08-01 12:08:10.801 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.801 18707 18737 I TileUtils: isNeedSkipTile() packageName: com.huawei.systemmanager, className: com.huawei.permissionmanager.ui.JumpActvity
+08-01 12:08:10.801 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.802 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.802 18707 18737 I TileUtils: isNeedSkipTile() packageName: com.huawei.systemmanager, className: com.huawei.netassistant.ui.NetAssistantMainActivity
+08-01 12:08:10.803 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.803 18707 18728 V SQLiteDatabase: triggerBuildingIndex(): invalid id, return.
+08-01 12:08:10.803 27577 27577 D StatusBarIconController: setIconVisibility icon is null or visibility not change visibility=false
+08-01 12:08:10.804 18707 18728 V SQLiteDatabase: triggerBuildingIndex(): invalid id, return.
+08-01 12:08:10.805 18707 18737 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.806 18707 18749 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+08-01 12:08:10.806 18707 18728 V SQLiteDatabase: triggerBuildingIndex(): invalid id, return.
+08-01 12:08:10.807  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010000
+08-01 12:08:10.807  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010100
+08-01 12:08:10.808  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010200
+08-01 12:08:10.808   644   644 I GRALLOC : 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=644
+08-01 12:08:10.808   644   644 I GRALLOC : 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0
+08-01 12:08:10.808   644   644 I GRALLOC : 	 iova_size=8486912,conUsg=0x900,proUsg=0x900,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=0,ionhnd = 1
+08-01 12:08:10.809  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010300
+08-01 12:08:10.809  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010001
+08-01 12:08:10.810  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010101
+08-01 12:08:10.810  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010201
+08-01 12:08:10.811  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010301
+08-01 12:08:10.812  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010002
+08-01 12:08:10.812 18707 18728 V SQLiteDatabase: triggerBuildingIndex(): invalid id, return.
+08-01 12:08:10.812  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010102
+08-01 12:08:10.812 18707 18728 D Index   : Indexing locale 'zh_CN_#Hans' took 45 millis
+08-01 12:08:10.812   644   644 I GRALLOC : 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=644
+08-01 12:08:10.812   644   644 I GRALLOC : 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0
+08-01 12:08:10.812   644   644 I GRALLOC : 	 iova_size=8486912,conUsg=0x900,proUsg=0x900,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=0,ionhnd = 1
+08-01 12:08:10.813  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010202
+08-01 12:08:10.813  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010302
+08-01 12:08:10.814  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010003
+08-01 12:08:10.814  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010103
+08-01 12:08:10.815  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010203
+08-01 12:08:10.815  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010303
+08-01 12:08:10.816  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010004
+08-01 12:08:10.816  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010104
+08-01 12:08:10.816   644   644 I GRALLOC : 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=644
+08-01 12:08:10.816   644   644 I GRALLOC : 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0
+08-01 12:08:10.816   644   644 I GRALLOC : 	 iova_size=8486912,conUsg=0x900,proUsg=0x900,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=0,ionhnd = 1
+08-01 12:08:10.817  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010204
+08-01 12:08:10.817  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c010304
+08-01 12:08:10.819  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020000
+08-01 12:08:10.819  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020100
+08-01 12:08:10.819  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020200
+08-01 12:08:10.819  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020300
+08-01 12:08:10.820  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020001
+08-01 12:08:10.820  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020101
+08-01 12:08:10.820  2570  2570 W ResourceType: No known package when getting name for resource number 0x9c020201
+08-01 12:08:10.821   644   644 I GRALLOC : 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=644
+08-01 12:08:10.821   644   644 I GRALLOC : 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0
+08-01 12:08:10.821   644   644 I GRALLOC : 	 iova_size=8486912,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=0,ionhnd = 1
+08-01 12:08:10.824 18707 18728 D Index   : Deleting data for locale 'zh_CN_#Hans' took 7 millis
+08-01 12:08:10.827 18678 18678 I AccessibilityNodeInfoDumper: Null child 0/3, parent: android.view.accessibility.AccessibilityNodeInfo@7e02; boundsInParent: Rect(0, 0 - 1080, 1575); boundsInScreen: Rect(0, 0 - 1080, 1527); packageName: com.huawei.android.launcher; className: android.view.ViewGroup; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.huawei.android.launcher:id/workspace_screen; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.828 18678 18678 I AccessibilityNodeInfoDumper: Null child 1/3, parent: android.view.accessibility.AccessibilityNodeInfo@7e02; boundsInParent: Rect(0, 0 - 1080, 1575); boundsInScreen: Rect(0, 0 - 1080, 1527); packageName: com.huawei.android.launcher; className: android.view.ViewGroup; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.huawei.android.launcher:id/workspace_screen; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.828 18678 18678 I AccessibilityNodeInfoDumper: Null child 2/3, parent: android.view.accessibility.AccessibilityNodeInfo@7e02; boundsInParent: Rect(0, 0 - 1080, 1575); boundsInScreen: Rect(0, 0 - 1080, 1527); packageName: com.huawei.android.launcher; className: android.view.ViewGroup; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.huawei.android.launcher:id/workspace_screen; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.829 18707 18728 V SQLiteDatabase: triggerBuildingIndex(): invalid id, return.
+08-01 12:08:10.830 18678 18678 I AccessibilityNodeInfoDumper: Null child 0/3, parent: android.view.accessibility.AccessibilityNodeInfo@7e02; boundsInParent: Rect(0, 0 - 1080, 1575); boundsInScreen: Rect(0, 0 - 1080, 1527); packageName: com.huawei.android.launcher; className: android.view.ViewGroup; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.huawei.android.launcher:id/workspace_screen; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.830 18678 18678 I AccessibilityNodeInfoDumper: Null child 1/3, parent: android.view.accessibility.AccessibilityNodeInfo@7e02; boundsInParent: Rect(0, 0 - 1080, 1575); boundsInScreen: Rect(0, 0 - 1080, 1527); packageName: com.huawei.android.launcher; className: android.view.ViewGroup; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.huawei.android.launcher:id/workspace_screen; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.830 18707 18728 V SQLiteDatabase: triggerBuildingIndex(): invalid id, return.
+08-01 12:08:10.831 18678 18678 I AccessibilityNodeInfoDumper: Null child 2/3, parent: android.view.accessibility.AccessibilityNodeInfo@7e02; boundsInParent: Rect(0, 0 - 1080, 1575); boundsInScreen: Rect(0, 0 - 1080, 1527); packageName: com.huawei.android.launcher; className: android.view.ViewGroup; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.huawei.android.launcher:id/workspace_screen; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.831 18678 18678 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@81c3; boundsInParent: Rect(0, 0 - 1080, 1575); boundsInScreen: Rect(1080, 0 - 1080, 1527); packageName: com.huawei.android.launcher; className: android.view.ViewGroup; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.huawei.android.launcher:id/workspace_screen; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.832 18678 18678 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8584; boundsInParent: Rect(0, 0 - 1080, 1575); boundsInScreen: Rect(2160, 0 - 1080, 1527); packageName: com.huawei.android.launcher; className: android.view.ViewGroup; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.huawei.android.launcher:id/workspace_screen; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.832 18678 18678 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8945; boundsInParent: Rect(0, 0 - 1080, 1575); boundsInScreen: Rect(3240, 0 - 1080, 1527); packageName: com.huawei.android.launcher; className: android.view.ViewGroup; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.huawei.android.launcher:id/workspace_screen; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.833  1147  1883 D WindowManager: finishDrawingWindow: Window{a4512df u0 com.android.settings/com.android.settings.HWSettings} mDrawState=DRAW_PENDING
+08-01 12:08:10.834 18678 18678 I AccessibilityNodeInfoDumper: Null child 0/2, parent: android.view.accessibility.AccessibilityNodeInfo@90c7; boundsInParent: Rect(0, 0 - 1080, 273); boundsInScreen: Rect(0, 1556 - 1080, 1829); packageName: com.huawei.android.launcher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.huawei.android.launcher:id/hotseat; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.834 18707 18707 I DashboardSummary: SuggestionLoader inited.
+08-01 12:08:10.835 18678 18678 I AccessibilityNodeInfoDumper: Null child 1/2, parent: android.view.accessibility.AccessibilityNodeInfo@90c7; boundsInParent: Rect(0, 0 - 1080, 273); boundsInScreen: Rect(0, 1556 - 1080, 1829); packageName: com.huawei.android.launcher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.huawei.android.launcher:id/hotseat; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.835 18707 18707 D DashboardSummary: onWindowFocusChanged
+08-01 12:08:10.835 18678 18678 W AccessibilityNodeInfoDumper: Fetch time: 12ms
+08-01 12:08:10.836 18707 18731 D DashboardSummary:  SuggestionLoader:doInBackground begin:AsyncTask #3
+08-01 12:08:10.836 18707 18707 W InputMethodManager: startInputReason = 1
+08-01 12:08:10.837  1147  1288 V WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-01 12:08:10.837  1147  1288 V WindowManager: Check opening app=AppWindowToken{3f4bcca token=Token{f4d9035 ActivityRecord{5bf326c u0 com.android.settings/.HWSettings t1348}}}: allDrawn=true startingDisplayed=false startingMoved=false isRelaunching()=false
+08-01 12:08:10.838 18707 18728 V SQLiteDatabase: triggerBuildingIndex(): invalid id, return.
+08-01 12:08:10.838 18707 18731 I Settings: isNeedSkipFuction: setupNotDone = false, deviceProvisioned = true, userSetupComplete = true, FRPRestricted = false, needSkipFuction = false
+08-01 12:08:10.838 18707 18731 I DashboardSummary: getSuggestions return empty suggestions, because is emui lite version.
+08-01 12:08:10.838 18707 18728 D Index   : Indexing locale 'zh_CN_#Hans' took 14 millis
+08-01 12:08:10.838 18707 18731 I DashboardSummary: SuggestionLoader:doInBackground end cost 2 ms
+08-01 12:08:10.844 18707 18728 V NFC     : this device does not have NFC support
+08-01 12:08:10.846 18707 18728 D ParentControl: ParentControl status is 0
+08-01 12:08:10.847 18707 18728 I Settings: isNeedSkipFuction: setupNotDone = false, deviceProvisioned = true, userSetupComplete = true, FRPRestricted = false, needSkipFuction = false
+08-01 12:08:10.849 27577 27577 D BarTransitions.HwNavigationBarView: MODE_TRANSLUCENT -> MODE_OPAQUE animate=false
+08-01 12:08:10.849 27577 27577 D BarTransitions.HwNavigationBarView: applyModeBackground oldMode=MODE_TRANSLUCENT newMode=MODE_OPAQUE animate=false
+08-01 12:08:10.849 27577 29042 D HwRecentsLockUtils: Search
+08-01 12:08:10.849 26480 26480 I wangchen: SysInfo.getSysParam: orientation=1||config d=3.0,w=1080,h=1788||metrics d=3.0,w=1080,h=1788||sdk=26,bar_h=72
+08-01 12:08:10.850 26480 26480 I KeymapLoader: w=1080 h=1788 ori=true appScale=3.3 s1=3.0
+08-01 12:08:10.850  1857  2181 E HsmCoreServiceImpl: onTransact in code is: 103
+08-01 12:08:10.850  1857  2181 I MediaProcessHandler: playingUids:
+08-01 12:08:10.850 27577 27577 W ResourceType: No package identifier when getting value for resource number 0x00000000
+08-01 12:08:10.850 27577 27577 E HwNotchUtils: setIconForView iconId is not found
+08-01 12:08:10.851 27577 27577 W ResourceType: No package identifier when getting value for resource number 0x00000000
+08-01 12:08:10.851 27577 27577 E HwNotchUtils: setIconForView iconId is not found
+08-01 12:08:10.852  2983  2983 I HiBoard_Workspace: onWindowVisibilityChanged：8 isOverlayClosed:true
+08-01 12:08:10.852  2983  2983 I HiBoard_MainView: onWindowVisibilityChanged：8 isOverlayClosed:true
+08-01 12:08:10.852  2983  2983 I HiBoard_FlowLayout: onWindowVisibilityChanged：8 isOverlayClosed:true
+08-01 12:08:10.852 18707 18707 D DashboardSummary: com.android.settings.dashboard.DashboardSummary$SuggestionLoader@1f66cc SuggestionLoader:onPostExecute
+08-01 12:08:10.852 18707 18707 D DashboardData: DashboardData inited: DashboardDataSize = 14
+08-01 12:08:10.852 18707 18707 I DashboardAdapter: notifyDashboardDataChanged only diff
+08-01 12:08:10.852   645 10957 W hwcomposer: ScfCanHandle:264: AFBC: afbc layer height scl dowm larger than 2.(src_height:1920, dst_height:836)
+08-01 12:08:10.855   673  2881 E BufferQueueProducer: [com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher#0] disconnect: not connected (req=1)
+08-01 12:08:10.855  2570  3027 W libEGL  : EGLNativeWindowType 0x7acb53a010 disconnect failed
+08-01 12:08:10.856   644   644 I GRALLOC : 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=644
+08-01 12:08:10.856   644   644 I GRALLOC : 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0
+08-01 12:08:10.856   644   644 I GRALLOC : 	 iova_size=8486912,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=0,ionhnd = 1
+08-01 12:08:10.857   673   828 E BufferQueueProducer: [com.huawei.intelligent.Workspace#0] disconnect: not connected (req=1)
+08-01 12:08:10.857  2983 22918 W libEGL  : EGLNativeWindowType 0x7accb9a010 disconnect failed
+08-01 12:08:10.873 18678 18678 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@f640; boundsInParent: Rect(0, 0 - 1080, 0); boundsInScreen: Rect(0, 216 - 1080, 216); packageName: com.android.settings; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.android.settings:id/content_header_container; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.879  1147  1703 D ActivityManager: Skipping, home or recents stack task: TaskRecord{d79c33 #1125 A=com.huawei.android.launcher U=0 StackId=0 sz=1}
+08-01 12:08:10.879  1147  1703 D ActivityManager: Skipping intent:act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10800000 cmp=io.appium.settings/.Settings
+08-01 12:08:10.880  1147  1703 D ActivityManager: Skipping intent:flg=0x10800000 cmp=com.android.systemui/.usb.HwUsbDebuggingActivity
+08-01 12:08:10.880  1147  1703 D ActivityManager: Skipping intent:flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[48,1295][1032,2531]
+08-01 12:08:10.880  1147  1703 D ActivityManager: Skipping intent:act=android.settings.ACCESSIBILITY_SETTINGS flg=0x10808000 cmp=com.android.settings/.Settings$AccessibilitySettingsActivity
+08-01 12:08:10.880  1147  1703 D ActivityManager: Skipping intent:flg=0x10800000 cmp=com.github.uiautomator/.IdentifyActivity
+08-01 12:08:10.880  1147  1703 D ActivityManager: Skipping intent:act=android.deviceinfo.chooser.action.LAUNCH flg=0x10800000 hwFlg=0x100 pkg=com.android.settings cmp=com.android.settings/.deviceinfo.UsbConnModeChooserActivity
+08-01 12:08:10.880  1147  1703 D ActivityManager: Skipping intent:act=android.intent.action.VIEW dat=content://com.android.browser.fileProvider/external_files/Downloads/Solopi.apk typ=application/vnd.android.package-archive flg=0x18800000 cmp=com.android.packageinstaller/.InstallStart
+08-01 12:08:10.880  1147  1703 D ActivityManager: Skipping intent:act=android.intent.action.VIEW dat=https://github.com/... flg=0x13800000 cmp=com.android.browser/.BrowserActivity
+08-01 12:08:10.880  1147  1703 D ActivityManager: Skipping intent:act=android.intent.action.VIEW dat=https://github.com/... flg=0x10800000 cmp=com.huawei.android.internal.app/.HwResolverActivity
+08-01 12:08:10.880  1147  1703 D ActivityManager: Skipping intent:act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10800300 cmp=com.android.settings/.FallbackHome
+08-01 12:08:10.880  1147  1703 D ActivityManager: Skipping intent:act=com.huawei.action.VOICE_ASSISTANT flg=0x10800000 cmp=com.huawei.vassistant/.ui.main.VAssistantActivity
+08-01 12:08:10.880 18707 18728 D BiometricManager: fpm.isHardwareDetected() = true
+08-01 12:08:10.885 18707 18737 V SQLiteDatabase: triggerBuildingIndex(): invalid id, return.
+08-01 12:08:10.885 18707 18737 D Index   : Indexing locale 'zh_CN_#Hans' took 3 millis
+08-01 12:08:10.887 18707 18728 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.889 18707 18728 I chatty  : uid=1000(system) AsyncTask #2 identical 10 lines
+08-01 12:08:10.889 18707 18728 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.889 18707 18728 I TileUtils: isNeedSkipTile() packageName: com.android.settings, className: com.android.settings.Settings$BluetoothSettingsActivity
+08-01 12:08:10.890 18707 18737 V SQLiteDatabase: triggerBuildingIndex(): invalid id, return.
+08-01 12:08:10.890 18707 18737 D Index   : Indexing locale 'zh_CN_#Hans' took 3 millis
+08-01 12:08:10.890 18707 18728 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.890 18707 18728 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.890 18707 18728 I TileUtils: isNeedSkipTile() packageName: com.android.settings, className: com.android.settings.Settings$EnterprisePrivacySettingsActivity
+08-01 12:08:10.890 18707 18728 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.890 18707 18728 I TileUtils: isNeedSkipTile() packageName: com.android.settings, className: com.android.settings.LocationDashboardAlias
+08-01 12:08:10.890 18707 18728 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.890 18707 18728 I TileUtils: isNeedSkipTile() packageName: com.android.settings, className: com.android.settings.BackupSettingsActivity
+08-01 12:08:10.892 18707 18728 I TileUtils: isNeedSkipTile() packageName: com.huawei.android.dsdscardmanager, className: com.huawei.android.dsdscardmanager.HWCardManagerActivity
+08-01 12:08:10.892 18707 18728 I TileUtils: isNeedSkipTile() packageName: com.huawei.android.dsdscardmanager, className: com.huawei.android.dsdscardmanager.HWCardManagerTabActivity
+08-01 12:08:10.895 18707 18728 I TileUtils: isNeedSkipTile() packageName: com.huawei.hidisk, className: com.huawei.android.hicloud.ui.activity.NewHiSyncSettingActivity
+08-01 12:08:10.895 18707 18728 I TileUtils: isNeedSkipTile() packageName: com.huawei.android.hwouc, className: com.huawei.android.hwouc.ui.activities.MainEntranceActivity
+08-01 12:08:10.895 18707 18728 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.896 18707 18737 D Index   : Deleting data for locale 'zh_CN_#Hans' took 4 millis
+08-01 12:08:10.896 18707 18728 I TileUtils: isNeedSkipTile() packageName: com.huawei.hwid, className: com.huawei.hwid.ui.extend.setting.StartUpGuideLoginActivity
+08-01 12:08:10.896 18707 18728 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.896 18707 18728 I TileUtils: isNeedSkipTile() packageName: com.huawei.systemmanager, className: com.huawei.permissionmanager.ui.JumpActvity
+08-01 12:08:10.896 18707 18728 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.897 18707 18728 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.897 18707 18728 I TileUtils: isNeedSkipTile() packageName: com.huawei.systemmanager, className: com.huawei.netassistant.ui.NetAssistantMainActivity
+08-01 12:08:10.897 18707 18728 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.897 18707 18737 D Index   : Indexing locale 'zh_CN_#Hans' took 1 millis
+08-01 12:08:10.899 18707 18728 I Utils   : enabledInPad = false,isPcCastMode = false
+08-01 12:08:10.906   644   644 I GRALLOC : 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=644
+08-01 12:08:10.906   644   644 I GRALLOC : 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0
+08-01 12:08:10.906   644   644 I GRALLOC : 	 iova_size=8486912,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=0,ionhnd = 1
+08-01 12:08:10.906 18707 18707 I DashboardSummary: SuggestionLoader inited.
+08-01 12:08:10.907 18707 18727 D DashboardSummary:  SuggestionLoader:doInBackground begin:AsyncTask #1
+08-01 12:08:10.908 18707 18727 I Settings: isNeedSkipFuction: setupNotDone = false, deviceProvisioned = true, userSetupComplete = true, FRPRestricted = false, needSkipFuction = false
+08-01 12:08:10.908 18707 18727 I DashboardSummary: getSuggestions return empty suggestions, because is emui lite version.
+08-01 12:08:10.908 18707 18727 I DashboardSummary: SuggestionLoader:doInBackground end cost 1 ms
+08-01 12:08:10.920 18707 18707 D DashboardSummary: com.android.settings.dashboard.DashboardSummary$SuggestionLoader@c791d15 SuggestionLoader:onPostExecute
+08-01 12:08:10.920 18707 18707 D DashboardData: DashboardData inited: DashboardDataSize = 14
+08-01 12:08:10.920 18707 18707 I DashboardAdapter: notifyDashboardDataChanged only diff
+08-01 12:08:10.934 18678 18678 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@1defe; boundsInParent: Rect(0, 0 - 507, 53); boundsInScreen: Rect(168, 1792 - 675, 1788); packageName: com.android.settings; className: android.widget.TextView; text: 指纹、锁屏和密码、学生模式; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: android:id/summary; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.937 18678 18678 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@dfba; boundsInParent: Rect(0, 0 - 0, 144); boundsInScreen: Rect(0, 72 - 0, 216); packageName: com.android.settings; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: 向上导航; viewIdResName: null; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.937 18678 18678 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@e73c; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 143 - 0, 143); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: androidhwext:id/actionbar_layout_icon1; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.938 18678 18678 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@eebe; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(1080, 143 - 1080, 143); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: androidhwext:id/actionbar_layout_icon2; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.938 18678 18678 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@dbf9; boundsInParent: Rect(0, 0 - 0, 144); boundsInScreen: Rect(1080, 72 - 1080, 216); packageName: com.android.settings; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+08-01 12:08:10.939 18678 18678 W AccessibilityNodeInfoDumper: Fetch time: 73ms
+08-01 12:08:10.969  1147  1288 V WindowManager: Exit animation finished in Window{1372794 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher EXITING}: remove=false
+08-01 12:08:10.969  1147  1288 V WindowManager: Exit animation finished in Window{8b51aff u0 com.huawei.intelligent.Workspace EXITING}: remove=false
+08-01 12:08:10.974 27577 27577 D ImageWallpaper: onVisibilityChanged: mVisible, visible=true, false
+08-01 12:08:10.974 27577 27577 D ImageWallpaper: Visibility changed to visible=false
+08-01 12:08:10.999  1147  2852 V WindowManager: notifyAppStopped: AppWindowToken{57efd19 token=Token{ef87460 ActivityRecord{b1b063 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1125}}}
+08-01 12:08:10.999  1147  2852 E WindowManager: win=Window{8b51aff u0 com.huawei.intelligent.Workspace} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false
+08-01 12:08:10.999  1147  2852 I WindowManager: Destroying surface Surface(name=com.huawei.intelligent.Workspace) called by com.android.server.wm.WindowStateAnimator.destroySurface:2072 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:884 com.android.server.wm.HwWindowStateAnimator.destroySurfaceLocked:1006 com.android.server.wm.WindowState.destroyOrSaveSurfaceUnchecked:2998 com.android.server.wm.WindowState.destroySurface:2951 com.android.server.wm.AppWindowToken.destroySurfaces:664 com.android.server.wm.AppWindowToken.destroySurfaces:648 com.android.server.wm.AppWindowToken.notifyAppStopped:692
+08-01 12:08:11.000  1147  2852 E WindowManager: win=Window{1372794 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false
+08-01 12:08:11.000  1147  2852 I WindowManager: Destroying surface Surface(name=com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher) called by com.android.server.wm.WindowStateAnimator.destroySurface:2072 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:884 com.android.server.wm.HwWindowStateAnimator.destroySurfaceLocked:1006 com.android.server.wm.WindowState.destroyOrSaveSurfaceUnchecked:2998 com.android.server.wm.WindowState.destroySurface:2951 com.android.server.wm.AppWindowToken.destroySurfaces:664 com.android.server.wm.AppWindowToken.destroySurfaces:648 com.android.server.wm.AppWindowToken.notifyAppStopped:692
+08-01 12:08:11.004  1147  1310 W AwareLog: SchedLevelBoost: onFgActivitiesChanged config not set!
+08-01 12:08:11.004  1147  1164 D HwGameAssistantController: pid=2570, uid=10057, foreground=false
+08-01 12:08:11.099  1147  1172 D SmartcareProc: onSignalStrengthsChanged: signalStrength is: SignalStrength: 99 -1 0 0 -83 -53 32767 -1 32767 99 0 0 0 2147483647 0 -1 true cdma , on sub: 0
+08-01 12:08:11.099  1147  1172 D SmartcareProc: SignalStrength update result, ss: SignalStrengthInfo:211694203 mGsmSignalStrength: -1 mWcdmaRscp: -1 mWcdmaEcio: -1 mLteRsrp: -1 mLteRsrq: -1 mCdmaDbm: -83 mCdmaEcio: -53 mEvdoDbm: 32767mEvdoEcio: -1mLteRssnr: -1
+08-01 12:08:11.100  1147  1147 I MQoS    : onSignal: mSubId=0,currDataSubID=0
+08-01 12:08:11.100  1147  1147 I MQoS    : received cell-signal:5
+08-01 12:08:11.122   673  2881 D SurfaceFlinger: SurfaceFlinger: getDisplayConfigs--3.000000, 1080, 1920
+08-01 12:08:11.122   673  2881 I chatty  : uid=1000(system) Binder:673_5 identical 1 line
+08-01 12:08:11.122   673  2881 D SurfaceFlinger: SurfaceFlinger: getDisplayConfigs--3.000000, 1080, 1920
+08-01 12:08:11.123 19651 19651 I cutils-trace: atrace_init_once, trace_marker_path = /sys/kernel/debug/tracing/trace_marker
+08-01 12:08:11.126   414   414 W /system/bin/hwservicemanager: Cannot open /odm/manifest.xml
+08-01 12:08:11.139   414   414 W /system/bin/hwservicemanager: Cannot open /odm/manifest.xml
+08-01 12:08:11.142   644   644 I GRALLOC : 	 shrFd=10,fmt=0x1,intFmt=0x1,btStrd=4352,size=8355840,pid=644
+08-01 12:08:11.142   644   644 I GRALLOC : 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0
+08-01 12:08:11.142   644   644 I GRALLOC : 	 iova_size=8355840,conUsg=0x306,proUsg=0x366,	 strd=1088,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1
+08-01 12:08:11.246   669   669 E WifiHAL : enter wifi_get_link_stats
+08-01 12:08:11.252   758   758 E wificond: Failed to get NL80211_RATE_INFO_NOISE
+08-01 12:08:11.252   758   758 E wificond: Failed to get NL80211_RATE_INFO_SNR
+08-01 12:08:11.252   758   758 E wificond: Failed to get NL80211_STA_INFO_CNAHLOAD
+08-01 12:08:11.252  1147  1344 E WificondControl: Noise: 0, Snr: -1, Chload: -1
+08-01 12:08:11.252  1147  1346 D HwWifiCHRStateManager: handleMessage : 1001
+08-01 12:08:11.252  1147  1346 D HwWifiCHRStateManager: handleUpdateChannel:2412
+08-01 12:08:11.252  1147  1346 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c8e97fe
+08-01 12:08:11.253  1147  1344 D WifiScoreReport: Score = 100, wifiConnectivityManagerEnabled = false, lowScoreCount = 0

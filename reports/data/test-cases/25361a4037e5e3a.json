@@ -1,0 +1,205 @@
+{
+  "uid" : "25361a4037e5e3a",
+  "name" : "test_BT",
+  "fullName" : "src.testcases.test_settings.TestSetting#test_BT",
+  "historyId" : "3ae0e59d7c1a140277f3274ea67e8742",
+  "time" : {
+    "start" : 1564632418704,
+    "stop" : 1564632429444,
+    "duration" : 10740
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1564632405096,
+      "stop" : 1564632412850,
+      "duration" : 7754
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1564632405096,
+      "stop" : 1564632405096,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "检查：'蓝牙开关'",
+      "time" : {
+        "start" : 1564632423545,
+        "stop" : 1564632424444,
+        "duration" : 899
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1564632497979,
+      "stop" : 1564632497979,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1564632497980,
+      "stop" : 1564632497980,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "BT_test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_settings"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSetting"
+  }, {
+    "name" : "host",
+    "value" : "HZH4267C"
+  }, {
+    "name" : "thread",
+    "value" : "14800-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.testcases.test_settings"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "813ad52ee32ca433",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1564632412863,
+        "stop" : 1564632414120,
+        "duration" : 1257
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "a5b9fb08c3698fab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563433402509,
+          "stop" : 1563433413378,
+          "duration" : 10869
+        }
+      }, {
+        "uid" : "fa55f8786f8dc545",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563433167271,
+          "stop" : 1563433178460,
+          "duration" : 11189
+        }
+      }, {
+        "uid" : "6ade0540d3287a9",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'TestSetting' object has no attribute 'Action'",
+        "time" : {
+          "start" : 1563432931550,
+          "stop" : 1563432931550,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "636f6e743e59a9f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563432572849,
+          "stop" : 1563432583891,
+          "duration" : 11042
+        }
+      }, {
+        "uid" : "f06f427ca1fcccff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563418859409,
+          "stop" : 1563418870739,
+          "duration" : 11330
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "25361a4037e5e3a.json",
+  "parameterValues" : [ ]
+}
