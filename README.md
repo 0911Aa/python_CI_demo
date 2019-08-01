@@ -5,4 +5,4 @@ pytest+allure的一个CI demo
 查看allure报告还需要安装allure
 安装方式:
 下载allure
-123
+配置环境变量
