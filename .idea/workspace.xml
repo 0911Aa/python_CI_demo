@@ -1,7 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="54b204e0-2ae0-42fc-b1b7-02e944809287" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="54b204e0-2ae0-42fc-b1b7-02e944809287" name="Default Changelist" comment="增加case结束后关闭server">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/18325886-73c6-4feb-a83b-4a754f6856e6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1d5faec7-3929-4461-9005-d5c09fd35b81-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/27416167-1c42-4dd1-8856-6e2529a2032f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/303998a5-6758-4c07-8639-3c79dd375016-attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/4c62efd1-333e-494c-80f7-c91c4166766d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/4deaa6e7-dfbf-4d06-b62b-724a74e25ed7-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/5821e4a1-1a77-40c0-a932-f937908a819a-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/6708bd2f-7973-471d-aa8d-ab0d6e496657-attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/737f678e-ada1-40d6-9052-7184196ac607-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/931fb0cd-90f8-4070-b766-ced9fb41d90a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/9554cf5f-638e-4873-9852-7c8af3914aae-attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/977feb40-5deb-44a8-aff6-5d4f6c484887-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/b4745662-8eb6-4b8c-bcaa-43f42f8d43ec-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/b9b09516-98bd-4bf4-9f9d-55c03a1b752e-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/c1b7d180-da69-4446-8f95-481f3d7e4203-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/d0251e63-cd8f-48b9-a483-afd1aadf4550-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/e861d971-4ce2-48b3-be54-156ba5b1a7cc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/eaa11380-91ad-40d0-bd5f-68204f380449-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/f31c8e04-29ae-4adf-8af4-ddbf61cd4119-attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/attachments/222969a175bb7e65.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/attachments/49dfe237025a9381.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/attachments/80678057ba6dd08f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/attachments/81a16d45290c2fd3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/attachments/a6480e9c83eab9fa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/attachments/df35340444b0ad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/attachments/eb3ae8965486dd1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/attachments/fe2eec3046dca525.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/25361a4037e5e3a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/28acdbda827555df.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/4daf49e0fa6aea4b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/525401fea2b0b1cf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/813ad52ee32ca433.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/a0ed01c0d3134294.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/bb2e83d7cf420b87.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/data/test-cases/ee2eb0e191f2e0ee.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/43d0c86c-846c-4dbc-ae2d-e19753732de1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/57b5a472-86b8-4355-bfb6-21aabac91677-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/5d853ccb-37a9-40b0-8312-91ce91b67321-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/734b5e1f-f449-49da-8339-7e39d199b81d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/82b1cd52-47a3-4345-a365-7e397385d7ca-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/895fcf55-e003-4abe-9a04-8eb4da52bcd7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/b5974c2f-b80c-42b9-bf36-17164e0f1bf6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/d536727d-0c45-4565-9e34-dc4a623da746-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/de40d800-c03f-4c09-8e58-67fcb5dedd07-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ee5452ac-025d-43be-bb1d-31ea171c1466-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/export/mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/export/mail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/reports/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/plugins/behaviors/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/plugins/behaviors/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/plugins/packages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/plugins/packages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/plugins/screen-diff/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/plugins/screen-diff/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/plugins/screen-diff/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/reports/plugins/screen-diff/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/reports/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/userconfig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/settings/userconfig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/about_server/write_user_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/sources/about_server/write_user_command.py" afterDir="false" />
+    </list>
+>>>>>>> origin/master
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +114,7 @@
     <SUITE FILE_PATH="coverage/python_ci$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1565252029874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_ci$driver.coverage" NAME="driver Coverage Results" MODIFIED="1562817668288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sources" />
   </component>
+<<<<<<< HEAD
   <component name="FUSProjectUsageTrigger">
     <session id="1630317287">
       <usages-collector id="statistics.lifecycle.project">
@@ -183,6 +276,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> origin/master
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -201,6 +296,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -240,6 +336,8 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> origin/master
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -247,13 +345,22 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-12" />
     <option name="width" value="1376" />
     <option name="height" value="754" />
+=======
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1036" />
+    <option name="height" value="503" />
+>>>>>>> origin/master
   </component>
+  <component name="ProjectId" id="1Onx1Q8nIZsqeFwTruS9mQx5DWq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -294,12 +401,20 @@
       </pane>
     </panes>
   </component>
+=======
+>>>>>>> origin/master
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/atxdemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+=======
+    <property name="settings.editor.selected.configurable" value="Errors" />
+>>>>>>> origin/master
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -466,8 +581,12 @@
       <list>
         <item itemvalue="Python.run (1)" />
         <item itemvalue="Python.server" />
+<<<<<<< HEAD
         <item itemvalue="Python.test_BT_switch" />
+=======
+>>>>>>> origin/master
         <item itemvalue="Python.read_config" />
+        <item itemvalue="Python.test_BT_switch" />
         <item itemvalue="Python.get_driver" />
       </list>
     </recent_temporary>
@@ -542,6 +661,7 @@
     <option name="localTasksCounter" value="9" />
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <layout>
@@ -568,6 +688,8 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
+=======
+>>>>>>> origin/master
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -588,30 +710,15 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="删除无用文件" />
     <MESSAGE value="增加自动启动sever功能，根据adb devices显示的设备数量启动同样数量的sever，可以实现并发" />
     <MESSAGE value="增加自动启动sever功能，根据adb devices显示的设备数量启动同样数量的sever，后续优化脚本可以实现并发" />
@@ -622,6 +729,7 @@
     <MESSAGE value="增加运行指定case的功能" />
     <option name="LAST_COMMIT_MESSAGE" value="增加运行指定case的功能" />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/report/test/3fd2cdff-07a3-4d31-902a-a49283fcd665-testsuite.xml" />
     <entry file="file://$PROJECT_DIR$/.pytest_cache/.gitignore">
@@ -852,4 +960,6 @@
       </provider>
     </entry>
   </component>
+=======
+>>>>>>> origin/master
 </project>

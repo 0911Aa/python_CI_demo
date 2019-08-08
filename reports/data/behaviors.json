@@ -5,13 +5,13 @@
     "name" : "BT_test",
     "children" : [ {
       "name" : "test_BT",
-      "uid" : "97b012a162b3f76b",
+      "uid" : "5f10e72831876461",
       "parentUid" : "71de318037b1ad3b040a1f3f4b187820",
       "status" : "passed",
       "time" : {
-        "start" : 1565252079012,
-        "stop" : 1565252092432,
-        "duration" : 13420
+        "start" : 1565253314882,
+        "stop" : 1565253326274,
+        "duration" : 11392
       },
       "flaky" : true,
       "parameters" : [ ]

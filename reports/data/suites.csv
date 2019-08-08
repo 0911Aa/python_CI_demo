@@ -1,2 +1,2 @@
 "Status","Name","Duration in ms","Description"
-"passed","src.testcases.test_settings.TestSetting#test_BT","13420",""
+"passed","src.testcases.test_settings.TestSetting#test_BT","11392",""

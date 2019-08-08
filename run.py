@@ -32,7 +32,7 @@ class Run:
 
     def init_report(self):
         cmd1 = "allure generate "+self.project_path+"\data -o "+self.project_path+"\\reports --clean"
-        cmd2 = "allure open -h 192.168.2.102 -p 8083 "+self.project_path+"\\reports"
+        cmd2 = "allure open -h localhost -p 8083 "+self.project_path+"\\reports"
 
         subprocess.call(cmd1, shell=True)
         project_path = os.path.abspath(os.path.dirname(__file__))

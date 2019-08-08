@@ -1,1 +1,4 @@
-user_info_0: {bp: '4902', deviceName: RJCDU17529000254, port: '4000'}
+user_info_0:
+  bp: '4904'
+  deviceName: RJCDU17529000254
+  port: '4001'
