@@ -1,30 +1,8 @@
 {
-  "total" : 4,
+  "total" : 1,
   "items" : [ {
-    "uid" : "273407fac4ba6dcf8bf4f5ef08906ba1",
-    "name" : "Power_test",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
     "uid" : "71de318037b1ad3b040a1f3f4b187820",
     "name" : "BT_test",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "3953408cf754073f3dd56ebcae981919",
-    "name" : "WiFi_test",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

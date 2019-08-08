@@ -24,6 +24,7 @@ class TestSetting:
     #     if cls.Action:
     #         cls.Action.clear()
 
+    @pytest.mark.P1
     @allure.feature('BT_test')
     def test_BT(self):
         self.Action.home()

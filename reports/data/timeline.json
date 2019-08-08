@@ -4,69 +4,21 @@
   "children" : [ {
     "name" : "WINDOWS-POQJ4DC",
     "children" : [ {
-      "name" : "13000-MainThread",
+      "name" : "8992-MainThread",
       "children" : [ {
         "name" : "test_BT",
-        "uid" : "a5b9fb08c3698fab",
-        "parentUid" : "89e7047baab6f9102f4d5dda07aee7ca",
+        "uid" : "97b012a162b3f76b",
+        "parentUid" : "759b1ad00c85b6f97a9ed7e30b63278e",
         "status" : "passed",
         "time" : {
-          "start" : 1563433402509,
-          "stop" : 1563433413378,
-          "duration" : 10869
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_BT_switch",
-        "uid" : "e3bfc14f2854a451",
-        "parentUid" : "89e7047baab6f9102f4d5dda07aee7ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1563433413381,
-          "stop" : 1563433474382,
-          "duration" : 61001
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_wifi",
-        "uid" : "78bcccd9e310a6f8",
-        "parentUid" : "89e7047baab6f9102f4d5dda07aee7ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1563433482602,
-          "stop" : 1563433484502,
-          "duration" : 1900
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_power",
-        "uid" : "b0aee6038e5a7ed4",
-        "parentUid" : "89e7047baab6f9102f4d5dda07aee7ca",
-        "status" : "broken",
-        "time" : {
-          "start" : 1563433480391,
-          "stop" : 1563433481472,
-          "duration" : 1081
+          "start" : 1565252079012,
+          "stop" : 1565252092432,
+          "duration" : 13420
         },
         "flaky" : true,
         "parameters" : [ ]
-      }, {
-        "name" : "test_play_music",
-        "uid" : "1a8ad9418677f8b2",
-        "parentUid" : "89e7047baab6f9102f4d5dda07aee7ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1563433485836,
-          "stop" : 1563433504360,
-          "duration" : 18524
-        },
-        "flaky" : false,
-        "parameters" : [ ]
       } ],
-      "uid" : "89e7047baab6f9102f4d5dda07aee7ca"
+      "uid" : "759b1ad00c85b6f97a9ed7e30b63278e"
     } ],
     "uid" : "a1296cfe60b316b6865b40f099cc0134"
   } ]

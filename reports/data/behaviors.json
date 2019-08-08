@@ -5,77 +5,17 @@
     "name" : "BT_test",
     "children" : [ {
       "name" : "test_BT",
-      "uid" : "a5b9fb08c3698fab",
+      "uid" : "97b012a162b3f76b",
       "parentUid" : "71de318037b1ad3b040a1f3f4b187820",
       "status" : "passed",
       "time" : {
-        "start" : 1563433402509,
-        "stop" : 1563433413378,
-        "duration" : 10869
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "蓝牙开关测试",
-      "children" : [ {
-        "name" : "test_BT_switch",
-        "uid" : "e3bfc14f2854a451",
-        "parentUid" : "3d85e9bfdaf287244d2069a10308aec4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1563433413381,
-          "stop" : 1563433474382,
-          "duration" : 61001
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3d85e9bfdaf287244d2069a10308aec4"
-    } ],
-    "uid" : "71de318037b1ad3b040a1f3f4b187820"
-  }, {
-    "name" : "Power_test",
-    "children" : [ {
-      "name" : "test_power",
-      "uid" : "b0aee6038e5a7ed4",
-      "parentUid" : "273407fac4ba6dcf8bf4f5ef08906ba1",
-      "status" : "broken",
-      "time" : {
-        "start" : 1563433480391,
-        "stop" : 1563433481472,
-        "duration" : 1081
+        "start" : 1565252079012,
+        "stop" : 1565252092432,
+        "duration" : 13420
       },
       "flaky" : true,
       "parameters" : [ ]
     } ],
-    "uid" : "273407fac4ba6dcf8bf4f5ef08906ba1"
-  }, {
-    "name" : "WiFi_test",
-    "children" : [ {
-      "name" : "test_wifi",
-      "uid" : "78bcccd9e310a6f8",
-      "parentUid" : "3953408cf754073f3dd56ebcae981919",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563433482602,
-        "stop" : 1563433484502,
-        "duration" : 1900
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "3953408cf754073f3dd56ebcae981919"
-  }, {
-    "name" : "test_play_music",
-    "uid" : "1a8ad9418677f8b2",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1563433485836,
-      "stop" : 1563433504360,
-      "duration" : 18524
-    },
-    "flaky" : false,
-    "parameters" : [ ]
+    "uid" : "71de318037b1ad3b040a1f3f4b187820"
   } ]
 }

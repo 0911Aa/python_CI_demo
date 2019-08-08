@@ -1,50 +1,10 @@
 [ {
-  "uid" : "e3bfc14f2854a451",
-  "name" : "test_BT_switch",
-  "time" : {
-    "start" : 1563433413381,
-    "stop" : 1563433474382,
-    "duration" : 61001
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1a8ad9418677f8b2",
-  "name" : "test_play_music",
-  "time" : {
-    "start" : 1563433485836,
-    "stop" : 1563433504360,
-    "duration" : 18524
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "78bcccd9e310a6f8",
-  "name" : "test_wifi",
-  "time" : {
-    "start" : 1563433482602,
-    "stop" : 1563433484502,
-    "duration" : 1900
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b0aee6038e5a7ed4",
-  "name" : "test_power",
-  "time" : {
-    "start" : 1563433480391,
-    "stop" : 1563433481472,
-    "duration" : 1081
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a5b9fb08c3698fab",
+  "uid" : "97b012a162b3f76b",
   "name" : "test_BT",
   "time" : {
-    "start" : 1563433402509,
-    "stop" : 1563433413378,
-    "duration" : 10869
+    "start" : 1565252079012,
+    "stop" : 1565252092432,
+    "duration" : 13420
   },
   "status" : "passed",
   "severity" : "normal"

@@ -2,76 +2,20 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "src.testcases",
+    "name" : "src.testcases.test_settings",
     "children" : [ {
-      "name" : "test_settings",
-      "children" : [ {
-        "name" : "test_BT",
-        "uid" : "a5b9fb08c3698fab",
-        "parentUid" : "27963911f6f1fc30b4753292cfd4d223",
-        "status" : "passed",
-        "time" : {
-          "start" : 1563433402509,
-          "stop" : 1563433413378,
-          "duration" : 10869
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_BT_switch",
-        "uid" : "e3bfc14f2854a451",
-        "parentUid" : "27963911f6f1fc30b4753292cfd4d223",
-        "status" : "passed",
-        "time" : {
-          "start" : 1563433413381,
-          "stop" : 1563433474382,
-          "duration" : 61001
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_power",
-        "uid" : "b0aee6038e5a7ed4",
-        "parentUid" : "27963911f6f1fc30b4753292cfd4d223",
-        "status" : "broken",
-        "time" : {
-          "start" : 1563433480391,
-          "stop" : 1563433481472,
-          "duration" : 1081
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_wifi",
-        "uid" : "78bcccd9e310a6f8",
-        "parentUid" : "27963911f6f1fc30b4753292cfd4d223",
-        "status" : "passed",
-        "time" : {
-          "start" : 1563433482602,
-          "stop" : 1563433484502,
-          "duration" : 1900
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "27963911f6f1fc30b4753292cfd4d223"
-    }, {
-      "name" : "test_player",
-      "children" : [ {
-        "name" : "test_play_music",
-        "uid" : "1a8ad9418677f8b2",
-        "parentUid" : "ea7fd4e9dc984b6f9712c91b3ead053f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1563433485836,
-          "stop" : 1563433504360,
-          "duration" : 18524
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ea7fd4e9dc984b6f9712c91b3ead053f"
+      "name" : "test_BT",
+      "uid" : "97b012a162b3f76b",
+      "parentUid" : "27963911f6f1fc30b4753292cfd4d223",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565252079012,
+        "stop" : 1565252092432,
+        "duration" : 13420
+      },
+      "flaky" : true,
+      "parameters" : [ ]
     } ],
-    "uid" : "src.testcases"
+    "uid" : "src.testcases.test_settings"
   } ]
 }

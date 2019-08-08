@@ -1,5 +1,31 @@
 [ {
   "data" : {
+    "duration" : 13420
+  }
+}, {
+  "data" : {
+    "duration" : 11181
+  }
+}, {
+  "data" : {
+    "duration" : 11204
+  }
+}, {
+  "data" : { }
+}, {
+  "data" : {
+    "duration" : 101810
+  }
+}, {
+  "data" : {
+    "duration" : 100094
+  }
+}, {
+  "data" : {
+    "duration" : 103952
+  }
+}, {
+  "data" : {
     "duration" : 101851
   }
 }, {
@@ -45,20 +71,6 @@
 }, {
   "data" : {
     "duration" : 122970
-  }
-}, {
-  "data" : { }
-}, {
-  "data" : {
-    "duration" : 104436
-  }
-}, {
-  "data" : {
-    "duration" : 101951
-  }
-}, {
-  "data" : {
-    "duration" : 139677
   }
 }, {
   "data" : { }

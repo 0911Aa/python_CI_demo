@@ -9,76 +9,20 @@
         "name" : "TestSetting",
         "children" : [ {
           "name" : "test_BT",
-          "uid" : "a5b9fb08c3698fab",
+          "uid" : "97b012a162b3f76b",
           "parentUid" : "41d9a63e4d229e3bde4e4aa81bfd1078",
           "status" : "passed",
           "time" : {
-            "start" : 1563433402509,
-            "stop" : 1563433413378,
-            "duration" : 10869
-          },
-          "flaky" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_BT_switch",
-          "uid" : "e3bfc14f2854a451",
-          "parentUid" : "41d9a63e4d229e3bde4e4aa81bfd1078",
-          "status" : "passed",
-          "time" : {
-            "start" : 1563433413381,
-            "stop" : 1563433474382,
-            "duration" : 61001
-          },
-          "flaky" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_power",
-          "uid" : "b0aee6038e5a7ed4",
-          "parentUid" : "41d9a63e4d229e3bde4e4aa81bfd1078",
-          "status" : "broken",
-          "time" : {
-            "start" : 1563433480391,
-            "stop" : 1563433481472,
-            "duration" : 1081
+            "start" : 1565252079012,
+            "stop" : 1565252092432,
+            "duration" : 13420
           },
           "flaky" : true,
-          "parameters" : [ ]
-        }, {
-          "name" : "test_wifi",
-          "uid" : "78bcccd9e310a6f8",
-          "parentUid" : "41d9a63e4d229e3bde4e4aa81bfd1078",
-          "status" : "passed",
-          "time" : {
-            "start" : 1563433482602,
-            "stop" : 1563433484502,
-            "duration" : 1900
-          },
-          "flaky" : false,
           "parameters" : [ ]
         } ],
         "uid" : "41d9a63e4d229e3bde4e4aa81bfd1078"
       } ],
       "uid" : "541c3cce6e084e54501a65a9e936f8fd"
-    }, {
-      "name" : "test_player",
-      "children" : [ {
-        "name" : "TestSetting",
-        "children" : [ {
-          "name" : "test_play_music",
-          "uid" : "1a8ad9418677f8b2",
-          "parentUid" : "d059ee2ab4911b1708f1a1c3499e4d48",
-          "status" : "passed",
-          "time" : {
-            "start" : 1563433485836,
-            "stop" : 1563433504360,
-            "duration" : 18524
-          },
-          "flaky" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "d059ee2ab4911b1708f1a1c3499e4d48"
-      } ],
-      "uid" : "35e96f7b40d28b4c5dbac50c80fc43f5"
     } ],
     "uid" : "8b7700d9d0d6bc537fd2fc17d6c6039d"
   } ]

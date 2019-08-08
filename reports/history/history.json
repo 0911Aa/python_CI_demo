@@ -2,13 +2,40 @@
   "a8036b26306cb7cf18fef4d11e13b128" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 15,
+      "broken" : 18,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 15
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "7d3d17186e390168",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1563614593758,
+        "stop" : 1563614595005,
+        "duration" : 1247
+      }
+    }, {
+      "uid" : "da61394905daad9e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1563594849265,
+        "stop" : 1563594850634,
+        "duration" : 1369
+      }
+    }, {
+      "uid" : "313245691bb515be",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1563593773052,
+        "stop" : 1563593774275,
+        "duration" : 1223
+      }
+    }, {
       "uid" : "b0aee6038e5a7ed4",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
@@ -26,33 +53,6 @@
         "stop" : 1563433246546,
         "duration" : 1118
       }
-    }, {
-      "uid" : "6b3f4187f18aa78d",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'TestSetting' object has no attribute 'Action'",
-      "time" : {
-        "start" : 1563432938453,
-        "stop" : 1563432938453,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "b64545f57a82b539",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
-      "time" : {
-        "start" : 1563432649040,
-        "stop" : 1563432650131,
-        "duration" : 1091
-      }
-    }, {
-      "uid" : "f087a52cb2dbb4f0",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
-      "time" : {
-        "start" : 1563418938185,
-        "stop" : 1563418939384,
-        "duration" : 1199
-      }
     } ]
   },
   "cd3af079d6be3506834bf9519cd412d0" : {
@@ -60,11 +60,35 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 13,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 15
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "d5de8e0dd6e89463",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563614530736,
+        "stop" : 1563614587480,
+        "duration" : 56744
+      }
+    }, {
+      "uid" : "63a37cf445667a76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563594784877,
+        "stop" : 1563594842768,
+        "duration" : 57891
+      }
+    }, {
+      "uid" : "c9146ff87bb2dbc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563593708463,
+        "stop" : 1563593766845,
+        "duration" : 58382
+      }
+    }, {
       "uid" : "e3bfc14f2854a451",
       "status" : "passed",
       "time" : {
@@ -80,31 +104,6 @@
         "stop" : 1563433239493,
         "duration" : 61030
       }
-    }, {
-      "uid" : "6b9ac81518f316e9",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'TestSetting' object has no attribute 'Action'",
-      "time" : {
-        "start" : 1563432935058,
-        "stop" : 1563432935058,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "d60f4aa32b683660",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563432583894,
-        "stop" : 1563432643003,
-        "duration" : 59109
-      }
-    }, {
-      "uid" : "97338d351653319f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563418870748,
-        "stop" : 1563418931707,
-        "duration" : 60959
-      }
     } ]
   },
   "3ae0e59d7c1a140277f3274ea67e8742" : {
@@ -112,50 +111,49 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 13,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 15
+      "total" : 21
     },
     "items" : [ {
-      "uid" : "a5b9fb08c3698fab",
+      "uid" : "97b012a162b3f76b",
       "status" : "passed",
       "time" : {
-        "start" : 1563433402509,
-        "stop" : 1563433413378,
-        "duration" : 10869
+        "start" : 1565252079012,
+        "stop" : 1565252092432,
+        "duration" : 13420
       }
     }, {
-      "uid" : "fa55f8786f8dc545",
+      "uid" : "a31d3f1862da8c9",
       "status" : "passed",
       "time" : {
-        "start" : 1563433167271,
-        "stop" : 1563433178460,
-        "duration" : 11189
+        "start" : 1565251927751,
+        "stop" : 1565251938932,
+        "duration" : 11181
       }
     }, {
-      "uid" : "6ade0540d3287a9",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'TestSetting' object has no attribute 'Action'",
-      "time" : {
-        "start" : 1563432931550,
-        "stop" : 1563432931550,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "636f6e743e59a9f1",
+      "uid" : "75e63760087fdd48",
       "status" : "passed",
       "time" : {
-        "start" : 1563432572849,
-        "stop" : 1563432583891,
-        "duration" : 11042
+        "start" : 1565251844301,
+        "stop" : 1565251855505,
+        "duration" : 11204
       }
     }, {
-      "uid" : "f06f427ca1fcccff",
+      "uid" : "2f1420bfa0385d08",
       "status" : "passed",
       "time" : {
-        "start" : 1563418859409,
-        "stop" : 1563418870739,
-        "duration" : 11330
+        "start" : 1563614519625,
+        "stop" : 1563614530733,
+        "duration" : 11108
+      }
+    }, {
+      "uid" : "f06790022d2f250a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563594773621,
+        "stop" : 1563594784859,
+        "duration" : 11238
       }
     } ]
   },
@@ -164,11 +162,35 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 15
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "de0fe8fa5059e26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563614596152,
+        "stop" : 1563614598170,
+        "duration" : 2018
+      }
+    }, {
+      "uid" : "f4698e694645b42f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563594852167,
+        "stop" : 1563594854169,
+        "duration" : 2002
+      }
+    }, {
+      "uid" : "716e7515f1857283",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563593775627,
+        "stop" : 1563593777588,
+        "duration" : 1961
+      }
+    }, {
       "uid" : "78bcccd9e310a6f8",
       "status" : "passed",
       "time" : {
@@ -184,31 +206,6 @@
         "stop" : 1563433249553,
         "duration" : 1855
       }
-    }, {
-      "uid" : "4b96796758135a08",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'TestSetting' object has no attribute 'Action'",
-      "time" : {
-        "start" : 1563432941866,
-        "stop" : 1563432941866,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "2ba0d118e75067b9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563432651411,
-        "stop" : 1563432653264,
-        "duration" : 1853
-      }
-    }, {
-      "uid" : "411cd12afad0c61f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563418940925,
-        "stop" : 1563418942827,
-        "duration" : 1902
-      }
     } ]
   },
   "8b55efb98fe32e750b2dc577c3f64616" : {
@@ -216,11 +213,35 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 13,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 13
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "6a4e02cb250a2629",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563614599581,
+        "stop" : 1563614621435,
+        "duration" : 21854
+      }
+    }, {
+      "uid" : "9cb24f849db88ca9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563594855631,
+        "stop" : 1563594873715,
+        "duration" : 18084
+      }
+    }, {
+      "uid" : "134b4b5820bd593e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563593779002,
+        "stop" : 1563593801209,
+        "duration" : 22207
+      }
+    }, {
       "uid" : "1a8ad9418677f8b2",
       "status" : "passed",
       "time" : {
@@ -235,30 +256,6 @@
         "start" : 1563433250948,
         "stop" : 1563433273171,
         "duration" : 22223
-      }
-    }, {
-      "uid" : "6a920454bfdadf63",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563432944307,
-        "stop" : 1563432963059,
-        "duration" : 18752
-      }
-    }, {
-      "uid" : "26f3a93e43dd2cae",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563432654612,
-        "stop" : 1563432676242,
-        "duration" : 21630
-      }
-    }, {
-      "uid" : "d21152626499a436",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563418944180,
-        "stop" : 1563418966330,
-        "duration" : 22150
       }
     } ]
   }

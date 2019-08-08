@@ -1,9 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54b204e0-2ae0-42fc-b1b7-02e944809287" name="Default Changelist" comment="">
+    <list default="true" id="54b204e0-2ae0-42fc-b1b7-02e944809287" name="Default Changelist" comment="修改adb kill-server后，get_devices函数报错的问题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/about_server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/sources/about_server/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reports/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/userconfig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/settings/userconfig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testcases/test_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/testcases/test_settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,24 +56,27 @@
     <SUITE FILE_PATH="coverage/python_ci$server.coverage" NAME="server Coverage Results" MODIFIED="1563498074092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sources/about_server" />
     <SUITE FILE_PATH="coverage/python_ci$test.coverage" NAME="test Coverage Results" MODIFIED="1562728077280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/python_ci$port.coverage" NAME="port Coverage Results" MODIFIED="1563336373896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sources/about_server" />
-    <SUITE FILE_PATH="coverage/python_ci$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1563433364954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_ci$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1565252029874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_ci$driver.coverage" NAME="driver Coverage Results" MODIFIED="1562817668288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sources" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1630317287">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="6" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -50,14 +87,14 @@
           <entry key="csv" value="2" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="5" />
-          <entry key="ini" value="6" />
+          <entry key="ini" value="7" />
           <entry key="js" value="1" />
           <entry key="json" value="9" />
           <entry key="lastfailed" value="1" />
           <entry key="md" value="2" />
           <entry key="png" value="3" />
-          <entry key="py" value="73" />
-          <entry key="txt" value="4" />
+          <entry key="py" value="78" />
+          <entry key="txt" value="6" />
           <entry key="xml" value="1" />
           <entry key="yaml" value="6" />
           <entry key="yml" value="7" />
@@ -69,12 +106,12 @@
           <entry key="CSV" value="2" />
           <entry key="HTML" value="5" />
           <entry key="Image" value="3" />
-          <entry key="Ini" value="6" />
+          <entry key="Ini" value="7" />
           <entry key="JSON" value="9" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="73" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Python" value="78" />
           <entry key="XML" value="1" />
           <entry key="YAML" value="13" />
         </counts>
@@ -83,18 +120,18 @@
         <counts>
           <entry key="bat" value="22" />
           <entry key="dummy" value="23" />
-          <entry key="ini" value="157" />
+          <entry key="ini" value="278" />
           <entry key="md" value="52" />
-          <entry key="py" value="3814" />
-          <entry key="txt" value="274" />
+          <entry key="py" value="3836" />
+          <entry key="txt" value="322" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Ini" value="157" />
+          <entry key="Ini" value="278" />
           <entry key="Markdown" value="52" />
-          <entry key="PLAIN_TEXT" value="319" />
-          <entry key="Python" value="3814" />
+          <entry key="PLAIN_TEXT" value="367" />
+          <entry key="Python" value="3836" />
         </counts>
       </usages-collector>
     </session>
@@ -102,38 +139,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="40" selection-start-line="40" selection-end-line="41" selection-end-column="28" />
-              <folding>
-                <element signature="e#24#56#0" expanded="true" />
-                <marker date="1563433358632" expanded="true" signature="291:368" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_for_jenkins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-              <folding>
-                <element signature="e#24#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sources/about_server/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-88">
-              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="757">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
               <folding>
                 <element signature="e#74#121#0" expanded="true" />
-                <marker date="1563498028572" expanded="true" signature="2481:2490" ph="..." />
+                <marker date="1563498070338" expanded="true" signature="2485:2494" ph="..." />
               </folding>
             </state>
           </provider>
@@ -152,13 +164,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/read_config.py">
+        <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="6" column="69" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="69" />
-              <folding>
-                <element signature="e#50#69#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="308">
+              <caret line="14" column="47" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -178,45 +187,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcases/test_settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="21" selection-start-line="21" selection-end-line="24" selection-end-column="32" />
+            <state relative-caret-position="205">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#25#50#0" expanded="true" />
-                <marker date="1563433112119" expanded="true" signature="471:482" ph="..." />
+                <marker date="1565251708171" expanded="true" signature="471:482" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/action.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2398">
-              <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
+            <state relative-caret-position="-36">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
-                <element signature="e#62#73#0" expanded="true" />
-                <marker date="1563411516475" expanded="true" signature="1260:1270" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings/config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcases/test_player.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding>
-                <element signature="e#25#50#0" expanded="true" />
+                <element signature="e#24#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -256,7 +243,6 @@
         <option value="$PROJECT_DIR$/src/conftest.py" />
         <option value="$PROJECT_DIR$/sources/method.py" />
         <option value="$PROJECT_DIR$/sources/page.py" />
-        <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/sources/dos_cmd.py" />
         <option value="$PROJECT_DIR$/sources/port.py" />
@@ -273,11 +259,12 @@
         <option value="$PROJECT_DIR$/sources/action.py" />
         <option value="$PROJECT_DIR$/python_CI.bat" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/testcases/test_settings.py" />
         <option value="$PROJECT_DIR$/src/testcases/test_player.py" />
-        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/run_for_jenkins.py" />
         <option value="$PROJECT_DIR$/sources/about_server/server.py" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/src/testcases/test_settings.py" />
+        <option value="$PROJECT_DIR$/run.py" />
       </list>
     </option>
   </component>
@@ -288,8 +275,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-148" />
-    <option name="y" value="29" />
+    <option name="x" value="-12" />
     <option name="width" value="1376" />
     <option name="height" value="754" />
   </component>
@@ -301,6 +287,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,6 +299,11 @@
               <item name="python_ci" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_ci" type="462c0819:PsiDirectoryNode" />
               <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_ci" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_ci" type="462c0819:PsiDirectoryNode" />
+              <item name="sources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_ci" type="b2602c69:ProjectViewProjectNode" />
@@ -328,15 +320,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/atxdemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -365,7 +356,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.server">
+  <component name="RunManager" selected="Python.run (1)">
     <configuration name="get_driver" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_ci" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -501,8 +492,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.server" />
         <item itemvalue="Python.run (1)" />
+        <item itemvalue="Python.server" />
         <item itemvalue="Python.test_BT_switch" />
         <item itemvalue="Python.read_config" />
         <item itemvalue="Python.get_driver" />
@@ -562,18 +553,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563433637397</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="修改adb kill-server后，get_devices函数报错的问题">
+      <created>1563498126334</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563498126334</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26595744" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16945289" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924013" visible="true" weight="0.51967216" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924013" visible="true" weight="0.3852459" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41967213" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -641,7 +639,8 @@
     <MESSAGE value="修改运行的路径，可双击bat或直接在cmd中运行" />
     <MESSAGE value="尝试增加一个jenkins启动文件" />
     <MESSAGE value="增加case结束后关闭server" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加case结束后关闭server" />
+    <MESSAGE value="修改adb kill-server后，get_devices函数报错的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改adb kill-server后，get_devices函数报错的问题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/report/test/3fd2cdff-07a3-4d31-902a-a49283fcd665-testsuite.xml" />
@@ -653,13 +652,6 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -734,13 +726,6 @@
         <state relative-caret-position="-1254" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sources/about_server/port.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -755,20 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/get_driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings/userconfig.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -778,14 +749,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_CI.bat" />
     <entry file="file://$PROJECT_DIR$/README" />
-    <entry file="file://$PROJECT_DIR$/run.py">
+    <entry file="file://$PROJECT_DIR$/run_for_jenkins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="40" selection-start-line="40" selection-end-line="41" selection-end-column="28" />
-          <folding>
-            <element signature="e#24#56#0" expanded="true" />
-            <marker date="1563433358632" expanded="true" signature="291:368" ph="..." />
-          </folding>
+        <state relative-caret-position="528">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/read_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -799,13 +780,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/read_config.py">
+    <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="69" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="69" />
-          <folding>
-            <element signature="e#50#69#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="308">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -819,24 +797,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcases/test_settings.py">
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="21" selection-start-line="21" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="e#25#50#0" expanded="true" />
-            <marker date="1563433112119" expanded="true" signature="471:482" ph="..." />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/action.py">
+    <entry file="file://$PROJECT_DIR$/src/testcases/test_player.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2398">
-          <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
+        <state relative-caret-position="440">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
-            <element signature="e#62#73#0" expanded="true" />
-            <marker date="1563411516475" expanded="true" signature="1260:1270" ph="..." />
+            <element signature="e#25#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -848,33 +821,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcases/test_player.py">
+    <entry file="file://$PROJECT_DIR$/sources/action.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="777">
+          <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
           <folding>
-            <element signature="e#25#50#0" expanded="true" />
+            <element signature="e#62#73#0" expanded="true" />
+            <marker date="1563411516475" expanded="true" signature="1260:1270" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_for_jenkins.py">
+    <entry file="file://$PROJECT_DIR$/sources/get_driver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding>
-            <element signature="e#24#56#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="513">
+          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sources/about_server/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="757">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
           <folding>
             <element signature="e#74#121#0" expanded="true" />
-            <marker date="1563498028572" expanded="true" signature="2481:2490" ph="..." />
+            <marker date="1563498070338" expanded="true" signature="2485:2494" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcases/test_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#25#50#0" expanded="true" />
+            <marker date="1565251708171" expanded="true" signature="471:482" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#24#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
