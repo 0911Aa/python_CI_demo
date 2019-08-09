@@ -10,6 +10,7 @@ from appium import webdriver
 # from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 import os
+from settings import common_path
 
 from logs.log import Log as L
 
@@ -477,7 +478,8 @@ class ElementActions:
                 self.driver.get_screenshot_as_file(target_path)
                 target = cv.imread(target_path)
                 # 导入匹配的图标
-                Tpl = str(Tpl)
+                Tpl = common_path.icons_path+str(Tpl)
+                print("********",Tpl)
                 tpl = cv.imread(Tpl)
                 # 获取图标大小
                 th, tw = tpl.shape[:2]

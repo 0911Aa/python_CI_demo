@@ -4,22 +4,21 @@
 
 import pytest,os,subprocess,time
 from sources.about_server.server import Server
+from settings import common_path
 import sys
-project_path = os.path.dirname(os.path.abspath(__file__))
-# print(project_path)
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(common_path.project_path)
 
 
 class Run:
     def __init__(self):
-        self.project_path = os.path.dirname(os.path.abspath(__file__))
+        self.project_path = common_path.project_path
 
     def init_env(self):
-        if os.path.exists(project_path+'\data'):
-            cmd1 = 'rd/s/q '+project_path+'\data'
+        if os.path.exists(self.project_path+'\data'):
+            cmd1 = 'rd/s/q '+self.project_path+'\data'
 
             subprocess.call(cmd1, shell=True)
-        cmd2 = "xcopy /D "+project_path+"\\reports\history "+project_path+"\data\history\ /e"
+        cmd2 = "xcopy /D "+self.project_path+"\\reports\history "+self.project_path+"\data\history\ /e"
         time.sleep(2)
         subprocess.call(cmd2, shell=True)
         server = Server()
@@ -46,7 +45,8 @@ class Run:
 if __name__ == "__main__":
     run = Run()
     run.init_env()
-    pytest.main(["-s","--reruns=2", project_path+"/src/testcases","--alluredir="+project_path+"/data","-m=P1"])
+    base_path = common_path.project_path
+    pytest.main(["-s","--reruns=2", base_path+"/src/testcases","--alluredir="+base_path+"/data","-m=P1"])
     run.init_report()
 
 #pytest -v 说明：可以输出用例更加详细的执行信息，比如用例所在的文件及用例名称等
