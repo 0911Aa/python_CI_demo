@@ -471,16 +471,18 @@ class ElementActions:
 
         # 导入屏幕截屏
         i = 0
+        error_list = []
         while i < 5:
             try:
                 i += 1
                 target_path = str(uuid.uuid4()) + '.png'
+                print("获得图片",target_path)
                 self.driver.get_screenshot_as_file(target_path)
                 target = cv.imread(target_path)
                 # 导入匹配的图标
-                Tpl = common_path.icons_path+str(Tpl)
-                print("********",Tpl)
-                tpl = cv.imread(Tpl)
+                Tpl_path = common_path.icons_path+str(Tpl)
+                print("********",Tpl_path)
+                tpl = cv.imread(Tpl_path)
                 # 获取图标大小
                 th, tw = tpl.shape[:2]
                 # 匹配函数
@@ -501,9 +503,13 @@ class ElementActions:
 
             except TypeError as e:
                 print(e)
+                error_list.append(e)
                 os.system("del /F /S /Q " + target_path)
                 if swipe:
                     self.swipe_up()
                     time.sleep(1)
+                print(error_list,len(error_list))
+                if len(error_list)>=5:
+                    raise Exception("页面中没有对应图标%s"%Tpl)
 
 

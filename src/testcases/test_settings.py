@@ -28,7 +28,8 @@ class TestSetting:
     @allure.feature('BT_test')
     def test_BT(self):
         self.Action.home()
-        self.Action.find_element_by_image(read_ini.get_value("设置图标"))
+        self.Action.find_element_by_image(read_ini.get_value("蓝牙图标"))
+        self.Action.find_element_by_image(read_ini.get_value("蓝牙图标"))
         # print(read_ini.get_value("setting"))
         # self.Action.click(read_ini.get_value("setting"),'设置')
         # self.Action.sleep(2)
