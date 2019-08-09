@@ -6,9 +6,10 @@
 import time
 import allure
 from appium import webdriver
-from appium.webdriver.common.touch_action import TouchAction
-from selenium.webdriver.common.by import By
+# from appium.webdriver.common.touch_action import TouchAction
+# from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
+import os
 
 from logs.log import Log as L
 
@@ -441,3 +442,66 @@ class ElementActions:
 
     def home(self):
         self.driver.keyevent(3)
+
+    def swipe_up(self,t=500):
+        x1 = self.width * 0.8  # x坐标
+        y1 = self.height * 0.65  # 起点y坐标
+        y2 = self.height * 0.35  # 终点y坐标
+        self.driver.swipe(x1, y1, x1, y2, t)
+
+    # 向下滑动
+    def swipe_down(self,t=500, n=1):
+        x1 = self.width * 0.5  # x坐标
+        y1 = self.height * 0.25  # 起点y坐标
+        y2 = self.height * 0.75  # 终点y坐标
+        for i in range(n):
+            self.driver.swipe(x1, y1, x1, y2, t)
+
+    def find_element_by_image(self, Tpl, value=0.85, swipe=False):
+        """
+        根据图片查找
+        :param Tpl: 要查找的图片
+        :param value: 相似度
+        :param swipe: 是否要滑动查找
+        :return:
+        """
+        import cv2 as cv
+        import uuid
+
+        # 导入屏幕截屏
+        i = 0
+        while i < 5:
+            try:
+                i += 1
+                target_path = str(uuid.uuid4()) + '.png'
+                self.driver.get_screenshot_as_file(target_path)
+                target = cv.imread(target_path)
+                # 导入匹配的图标
+                Tpl = str(Tpl)
+                tpl = cv.imread(Tpl)
+                # 获取图标大小
+                th, tw = tpl.shape[:2]
+                # 匹配函数
+                result = cv.matchTemplate(target, tpl, cv.TM_CCOEFF_NORMED)
+                min_val, max_val, min_loc, max_loc = cv.minMaxLoc(result)
+                tl = max_loc  # 是矩形右下角的点的坐标
+                print("相似度",max_val)
+                cv.rectangle(target, tl, (tl[0] + tw, tl[1] + th), (7, 249, 151), 2)
+                if max_val <= value:
+                    raise TypeError("没有图标")
+                point = [int(tl[0] + tw / 2), int(tl[1] + th / 2)]  # 是中间点的坐标
+                print("point",point)
+                cmd = "adb shell input tap " + str(str(point[0]) + " " + str(point[1]))
+                # print("cmd",cmd)
+                os.system(cmd)
+                os.system("del /F /S /Q " + target_path)
+                break
+
+            except TypeError as e:
+                print(e)
+                os.system("del /F /S /Q " + target_path)
+                if swipe:
+                    self.swipe_up()
+                    time.sleep(1)
+
+
