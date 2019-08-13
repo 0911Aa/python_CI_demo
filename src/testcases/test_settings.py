@@ -24,7 +24,6 @@ class TestSetting:
     #     if cls.Action:
     #         cls.Action.clear()
 
-    @pytest.mark.P1
     @allure.feature('BT_test')
     def test_BT(self):
         self.Action.home()
@@ -53,9 +52,11 @@ class TestSetting:
             self.Action.click(read_ini.get_value("setting"),'设置')
             self.Action.click(read_ini.get_value("power"),'电池')
 
+    @pytest.mark.P1
     @allure.feature('WiFi_test')
     def test_wifi(self):
         self.Action.home()
         self.Action.click(read_ini.get_value("setting"),'设置')
         self.Action.click(read_ini.get_value("wifi_home"),'wifi')
+        self.Action.find_elements_by_image(["wifi_switch_on",'wifi_switch_off'])
 

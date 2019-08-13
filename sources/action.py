@@ -11,10 +11,11 @@ from appium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 import os
 from settings import common_path
+from sources.read_config import ReadIni
 
 from logs.log import Log as L
 
-
+read_ini = ReadIni()
 def Ldict(element, type, name=None, text=None, time=5, index=0):
     """
     :param element: 查找元素的名称 例如：xxx:id/xx
@@ -511,5 +512,66 @@ class ElementActions:
                 print(error_list,len(error_list))
                 if len(error_list)>=5:
                     raise Exception("页面中没有对应图标%s"%Tpl)
+
+    def find_elements_by_image(self, Tpls, value=0.85, swipe=False):
+        """
+        根据图片查找
+        :param Tpl: 要查找的图片
+        :param value: 相似度
+        :param swipe: 是否要滑动查找
+        :return:
+        """
+        import cv2 as cv
+        import uuid
+
+        # 导入屏幕截屏
+        flag = False
+        i = 0
+        while i < 5:
+            try:
+                i += 1
+                target_path = str(uuid.uuid4()) + '.png'
+                print("获得图片", target_path)
+                self.driver.get_screenshot_as_file(target_path)
+                target = cv.imread(target_path)
+                # 导入匹配的图标
+                for Tpl in Tpls:
+                    Tpl_path = common_path.icons_path + str(read_ini.get_value(Tpl))
+                    print("********", Tpl_path)
+                    tpl = cv.imread(Tpl_path)
+                    # 获取图标大小
+                    th, tw = tpl.shape[:2]
+                    # 匹配函数
+                    result = cv.matchTemplate(target, tpl, cv.TM_CCOEFF_NORMED)
+                    min_val, max_val, min_loc, max_loc = cv.minMaxLoc(result)
+                    tl = max_loc  # 是矩形右下角的点的坐标
+                    print("相似度", max_val)
+                    cv.rectangle(target, tl, (tl[0] + tw, tl[1] + th), (7, 249, 151), 2)
+                    if max_val <= value:
+                        continue
+                        # raise TypeError("没有图标")
+                    else:
+                        flag = True
+                        break
+                if flag:
+
+                    point = [int(tl[0] + tw / 2), int(tl[1] + th / 2)]  # 是中间点的坐标
+                    print("point", point)
+                    cmd = "adb shell input tap " + str(str(point[0]) + " " + str(point[1]))
+                    # print("cmd",cmd)
+                    os.system(cmd)
+                    os.system("del /F /S /Q " + target_path)
+                    break
+                else:
+                    raise TypeError("没有图标")
+            except TypeError as e:
+                print(e)
+                os.system("del /F /S /Q " + target_path)
+                if swipe:
+                    self.swipe_up()
+                    time.sleep(1)
+
+        if not flag:
+            raise Exception("页面中没有对应图标%s" % Tpl)
 
 
